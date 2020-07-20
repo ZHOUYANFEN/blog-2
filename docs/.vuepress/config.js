@@ -1,11 +1,11 @@
 module.exports = {
-	title: '知码学院',
-	description: '军哥带你上王者',
+	title: "XueF's 测试笔记",
+	description: '一个测试小白的进阶之路',
 	dest: './dist',
 	port: '7777',
-	//head: [
-	//	['link',{rel: 'icon', href: '/logo.jpg'}]
-	//],
+	head: [
+		['link',{rel: 'stylesheet', href: '/css/style.css'}]
+	],
 	markdown: {
 		lineNumbers: true
 	},
