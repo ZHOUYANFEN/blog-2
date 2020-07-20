@@ -10,10 +10,7 @@ module.exports = {
 		lineNumbers: true
 	},
 	themeConfig: {
-		nav: [{
-			text: '懵逼指南', 
-			link: '/guide/'
-		}],
+		nav: require('./nav.js'),
 		//siderbar: {
 		//	'/guide/': [
 		//		{
