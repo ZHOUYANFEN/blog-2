@@ -1,10 +1,16 @@
 module.exports = [
 	{
-		text: '测试初级', 
-		//link: '/guide/'
+		text: '初级入门', 
+		link: '/basics/'，
+		items: [
+			{
+				text: '测试基础',
+				link: '/basics/methodFunction/'
+			}
+		]
 	}
 	{
-		text: '', 
+		text: '中级进阶', 
 		link: '/baodian/',
 		items: [
 			{
@@ -18,7 +24,7 @@ module.exports = [
 		]
 	},
 	{
-		text: '自动化测试',
+		text: '高级进阶',
 		items: [
 			{
 				text: '在线编辑',
