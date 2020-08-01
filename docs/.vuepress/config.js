@@ -11,24 +11,7 @@ module.exports = {
 	},
 	themeConfig: {
 		nav: require('./nav.js'),
-		//siderbar: {
-		//	'/guide/': [
-		//		{
-		//			title: '新手指南',
-		//			collapsable: true,
-		//			children: [
-		//				'/guide/notes/one',
-		//			]
-		//		},
-		//		{
-		//			title: '知码学院',
-		//			collapsable: true,
-		//			children: [
-		//				'/guide/notes/two',
-		//			]
-		//		}
-		//	]
-		//},
+		siderbar: require('./siderbar.js'),
 		//sidebarDepth: 2,
 		//lastUpdated: 'Last Updated',
 		//searchMaxSuggestions: 10,
