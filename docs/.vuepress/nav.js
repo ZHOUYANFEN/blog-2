@@ -1,7 +1,7 @@
 module.exports = [
 	{
 		text: '初级入门', 
-		link: '/basics/'，
+		link: '/basics/',
 		items: [
 			{
 				text: '测试基础',
