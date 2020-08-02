@@ -8,7 +8,7 @@ module.exports = [
 				link: '/basics/methodFunction/'
 			}
 		]
-	}
+	},
 	{
 		text: '中级进阶', 
 		link: '/baodian/',
