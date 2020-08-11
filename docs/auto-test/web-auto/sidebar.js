@@ -1,7 +1,7 @@
 module.exports = [
   {
-    title: '自动化测试',
-	path: '/auto-test/',
+    title: 'WEB 自动化测试',
+	path: '/auto-test/web-auto/',
     collapsable: false,
     children: [
 			{
