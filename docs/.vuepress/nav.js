@@ -6,7 +6,8 @@ module.exports = [
 			{
 				text: 'web自动化测试',
 				link: '/auto-test/web-auto/'
-			}
+			}，
+			
 		]
 	}
 ]
