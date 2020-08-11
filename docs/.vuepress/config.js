@@ -11,7 +11,7 @@ module.exports = {
 	},
 	themeConfig: {
 		nav: require('./nav.js'),
-		siderbar: require('./siderbar.js'),
+		sidebar: require('./sidebar.js'),
 		//sidebarDepth: 2,
 		//lastUpdated: 'Last Updated',
 		//searchMaxSuggestions: 10,

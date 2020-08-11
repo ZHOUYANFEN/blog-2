@@ -1,3 +1,3 @@
 module.exports = {
-	'/auto-test/web-auto': require('../auto-test/web-auto/sidebar');
+	'/auto-test/': require('../auto-test/sidebar');
 }
