@@ -5,7 +5,7 @@ module.exports = [
     collapsable: false,
     children: [
 			{
-				title: '一、web 自动化',
+				title: '一、web 自动化基础',
 				path: '/auto-test/web-auto/web-basics.md',
 				collapsable: true
 			}

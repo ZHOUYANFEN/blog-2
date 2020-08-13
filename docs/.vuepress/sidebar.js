@@ -1,4 +1,4 @@
 module.exports = {
-	'/auto-test/': require('../auto-test/sidebar'),
-	'/auto-test/web-auto': require('../auto-test/web-auto/sidebar')
+	'/auto-test/web-auto': require('../auto-test/web-auto/sidebar'),
+	'/auto-test/miniprogram-auto': require('../auto-test/miniprogram-auto/sidebar')
 }
