@@ -1,17 +1,16 @@
 {
-  "name": "vuepress-blog",
+  "name": "skill-book",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "vuepress": "^1.5.2"
-  },
-  "devDependencies": {},
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.5.3",
+    "vuepress": "^1.5.3"
+  }
 }
