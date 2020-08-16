@@ -7,6 +7,13 @@ module.exports = [
     ]
   },
   {
+    text: '产品与运营',
+    items: [
+      { text: '产品', link: '/product-and-operation/product/' },
+      { text: '运营', link: '/product-and-operation/operation/' }
+    ]
+  },
+  {
     text: '更新日志', link: '/history/'
   }
 ]

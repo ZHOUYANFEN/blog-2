@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /img/tx.jpg
-actionText: 浏览笔记 →
+actionText: 点击浏览 →
 actionLink: /guide/
 features:
 - title: 简洁至上
@@ -13,7 +13,7 @@ features:
 footer: MIT Licensed | Copyright © 2018-present Xuef Ji
 ---
 
-<div class="tech-stack">
+<div class="tech-stack" style="display: none">
   <h1>我的技术栈</h1>
   <div class="tech-logo">
     <div class="tech-logo-icon" data-tooltip="HTML 5">

@@ -1,6 +1,6 @@
 module.exports = {
-    title: "XueF's 测试笔记",
-    description: '一名测试女生的进阶之路',
+    title: "XueF's Blog",
+    description: '一名测试女生的个人博客',
     dest: './dist',
     port: '7777',
     head: [
