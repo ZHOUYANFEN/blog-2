@@ -14,6 +14,9 @@ module.exports = [
     ]
   },
   {
+    text: '读书笔记', link: '/book/'
+  },
+  {
     text: '更新日志', link: '/history/'
   }
 ]
