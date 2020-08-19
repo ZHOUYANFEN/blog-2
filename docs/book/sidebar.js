@@ -8,6 +8,11 @@ module.exports = [
 				title: '《数据思维》',
 				path: '/book/data-thinking.md',
 				collapsable: true
+			},
+			{
+				title: '《终身成长》',
+				path: '/book/mindSet.md',
+				collapsable: true
 			}
     ]
   }
