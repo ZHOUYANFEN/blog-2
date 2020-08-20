@@ -13,6 +13,11 @@ module.exports = [
 				title: '《终身成长》',
 				path: '/book/mindSet.md',
 				collapsable: true
+			},
+			{
+				title: '《刻意练习》',
+				path: '/book/deliberate-practice.md',
+				collapsable: true
 			}
     ]
   }
