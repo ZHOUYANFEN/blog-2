@@ -11,7 +11,7 @@ module.exports = [
 			},
 			{
 				title: '《终身成长》',
-				path: '/book/mindSet.md',
+				path: '/book/mind-set.md',
 				collapsable: true
 			},
 			{
