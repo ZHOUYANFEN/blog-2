@@ -4,6 +4,11 @@ module.exports = [
 	path: '/book/',
     collapsable: false,
     children: [
+    		{
+				title: '《掌控习惯》',
+				path: '/book/control-habits.md',
+				collapsable: true
+			},
 			{
 				title: '《数据思维》',
 				path: '/book/data-thinking.md',
