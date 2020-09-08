@@ -4,11 +4,11 @@ heroImage: /img/tx.jpg
 actionText: 点击浏览 →
 actionLink: /guide/
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+- title: 测试技术
+  details: 专注于自动化测试、性能测试、测试管理。
+- title: 读书笔记
+  details: 读万卷书，行万里路，遇见最好的自己。
+- title: 产品运营
+  details: 保持学习的热情，不断充实自己，提高自己价值。
 footer: MIT Licensed | Copyright © 2018-present Xuef Ji
 ---
