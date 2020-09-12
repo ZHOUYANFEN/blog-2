@@ -1,6 +1,6 @@
 module.exports = [
   {
-    title: 'others',
+    title: '其他',
 	path: '/others/',
     collapsable: false,
     children: [
