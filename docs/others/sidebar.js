@@ -5,7 +5,7 @@ module.exports = [
     collapsable: false,
     children: [
     		{
-				title: '如何些总结',
+				title: '如何写总结',
 				path: '/others/summary.md',
 				collapsable: true
 			}
