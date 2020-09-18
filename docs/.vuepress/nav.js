@@ -6,6 +6,12 @@ module.exports = [
       { text: '小程序自动化测试', link: '/auto-test/miniprogram-auto/' }
     ]
   },
+    {
+    text: 'Python',
+    items: [
+      { text: '基础语法', link: '/python/base/' }，
+    ]
+  },
   {
     text: '产品与运营',
     items: [
