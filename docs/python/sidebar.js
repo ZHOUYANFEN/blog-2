@@ -1,6 +1,6 @@
 module.exports = [
   {
-    title: '其他',
+    title: 'Python',
 	path: '/python/',
     collapsable: false,
     children: [
