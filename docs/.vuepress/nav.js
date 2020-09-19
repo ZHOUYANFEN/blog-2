@@ -7,10 +7,7 @@ module.exports = [
     ]
   },
     {
-    text: 'Python',
-    items: [
-      { text: '基础语法', link: '/python/base/' }，
-    ]
+    text: 'Python', link: '/python/'
   },
   {
     text: '产品与运营',
