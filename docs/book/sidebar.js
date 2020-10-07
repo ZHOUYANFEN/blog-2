@@ -23,6 +23,11 @@ module.exports = [
 				title: '《刻意练习》',
 				path: '/book/deliberate-practice.md',
 				collapsable: true
+			},
+			{
+				title: '《终结拖延症》',
+				path: '/book/end-procrastination.md',
+				collapsable: true
 			}
     ]
   }
