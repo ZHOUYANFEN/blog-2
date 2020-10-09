@@ -28,7 +28,7 @@
 
 1、活动海报：原价 57.5 元，活动价 39 元，1 桶立省 18.5 元等文案，洞察用户喜欢占便宜的心理，吸引用户扫码进入下单。
 
-![](F:\workspace\blog\docs\product-and-operation\product\images\mcdonald-hdhb.png)
+![](./images/mcdonald-hdhb.png)
 
 2、活动页面共有两个功能：
 
@@ -37,9 +37,9 @@
 
 3、顶部的生成海报按钮和分享按钮，点击即可生成分销海报和生成分享链接，操作简单，有利于用户分享。
 
-![](F:\workspace\blog\docs\product-and-operation\product\images\mcdonald-hdy.jpg)
+![](./images/mcdonald-hdy.jpg)
 
-![](F:\workspace\blog\docs\product-and-operation\product\images\mcdonald-fxhb.jpg)
+![](./images/mcdonald-fxhb.jpg)
 
 
 
