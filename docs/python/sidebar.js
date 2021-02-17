@@ -5,7 +5,7 @@ module.exports = [
     collapsable: false,
     children: [
     		{
-				title: 'Python 基础',
+				title: '数据类型',
 				path: '/python/base.md',
 				collapsable: true
 			}
