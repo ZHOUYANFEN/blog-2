@@ -13,6 +13,11 @@ module.exports = [
 				title: '团建总结',
 				path: '/others/team-building.md',
 				collapsable: true
+			},
+			{
+				title: '2020 年终总结',
+				path: '/others/2020-summary.md',
+				collapsable: true
 			}
     ]
   }
