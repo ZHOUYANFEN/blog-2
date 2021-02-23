@@ -20,7 +20,11 @@ module.exports = [
     text: '读书笔记', link: '/book/'
   },
   {
-	 text: '其他', link: '/others/'
+	 text: '其他', link: '/others/',
+	 items:[
+	 	{ text: '理财', link: '/other/fund/' },
+	 	{ text: '其他', link: '/other/other/' }
+	 ]
   },
   {
     text: '更新日志', link: '/history/'
