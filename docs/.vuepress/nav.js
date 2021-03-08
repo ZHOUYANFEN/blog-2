@@ -1,13 +1,14 @@
 module.exports = [
   {
-    text: '自动化测试',
+    text: '测试进阶',
     items: [
-      { text: 'Web 自动化测试', link: '/auto-test/web-auto/' },
-      { text: '小程序自动化测试', link: '/auto-test/miniprogram-auto/' }
+      { text: '自动化测试', link: '/advanced-testing/'},
+      	//items:[ 
+      	//{ text: 'Web 篇', link: '/advanced-testing/auto-test/web-auto/' },
+      	//{ text: '小程序篇', link: '/advanced-testing/auto-test/miniprogram-auto/' },]},
+    { text: '接口测试', link: '/advanced-testing/interface-test/' },
+    { text: '性能测试', link: '/advanced-testing/performance-test/' },
     ]
-  },
-  {
-    text: '接口测试', link: '/interface-test/'
   },
     {
     text: 'Python', link: '/python/'
