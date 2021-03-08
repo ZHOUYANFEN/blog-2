@@ -1,4 +1,5 @@
 module.exports = {
+  '/advanced-testing/': require('../advanced-testing/sidebar'),
   '/advanced-testing/auto-test/web-auto': require('../advanced-testing/auto-test/web-auto/sidebar'),
   '/advanced-testing/auto-test/miniprogram-auto': require('../advanced-testing/auto-test/miniprogram-auto/sidebar'),
   '/product-and-operation/product': require('../product-and-operation/product/sidebar'),
