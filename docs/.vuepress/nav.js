@@ -6,6 +6,9 @@ module.exports = [
       { text: '小程序自动化测试', link: '/auto-test/miniprogram-auto/' }
     ]
   },
+  {
+    text: '接口测试', link: '/interface-test/'
+  },
     {
     text: 'Python', link: '/python/'
   },
