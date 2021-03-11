@@ -1,12 +1,12 @@
 module.exports = [
   {
     title: 'Fiddler',
-	path: '//',
+	path: '/advanced-testing/interface-test/packet-capture-tool/',
     collapsable: false,
     children: [
 			{
-				title: '一、基本界面介绍',
-				path: '/auto-test/miniprogram-auto/miniprogram-basics.md',
+				title: '断点',
+				path: '/advanced-testing/interface-test/packet-capture-tool/breakpoints.md',
 				collapsable: true
 			}
     ]
