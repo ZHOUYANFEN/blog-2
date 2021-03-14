@@ -22,6 +22,14 @@ module.exports = [
 				collapsable: true
 			}
     ]
+  },
+   {
+    title: 'Nginx',
+	path: '/advanced-testing/nginx/',
+    collapsable: false,
+    children: [
+			
+    ]
   }
   
 ]
