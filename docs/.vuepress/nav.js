@@ -14,6 +14,7 @@ module.exports = [
       	//{ text: '小程序篇', link: '/advanced-testing/auto-test/miniprogram-auto/' },]},
     { text: '接口测试', link: '/advanced-testing/interface-test/' },
     { text: '性能测试', link: '/advanced-testing/performance-test/' },
+    { text: 'Nginx', link: '/advanced-testing/nginx/' },
     ]
   },
     {
