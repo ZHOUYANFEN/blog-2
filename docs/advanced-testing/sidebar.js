@@ -24,6 +24,18 @@ module.exports = [
     ]
   },
    {
+    title: '接口测试',
+	path: '/advanced-testing/interface-test/',
+    collapsable: false,
+    children: [
+		{
+				title: 'Fiddler',
+				path: '/advanced-testing/interface-test/packet-capture-tool/',
+				collapsable: true
+			}
+    ]
+  },
+   {
     title: 'Nginx',
 	path: '/advanced-testing/nginx/',
     collapsable: false,
