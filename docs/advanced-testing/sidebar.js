@@ -29,7 +29,7 @@ module.exports = [
     collapsable: false,
     children: [
 		{
-				title: 'Fiddler',
+				title: '抓包工具',
 				path: '/advanced-testing/interface-test/packet-capture-tool/',
 				collapsable: true
 			}
