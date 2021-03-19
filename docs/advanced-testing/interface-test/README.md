@@ -8,7 +8,7 @@
 
 ## 2. 接口测试的目的
 
-![test](images\test.jpg)
+![test](./images/test.jpg)
 
 上图将测试分为 3 层：
 
