@@ -14,6 +14,11 @@ module.exports = [
 				path: '/python/garbage-collection.md',
 				collapsable: true
 			},
+			{
+				title: '进程与线程',
+				path: '/python/multi-progress.md',
+				collapsable: true
+			},
     ]
   }
 ]
