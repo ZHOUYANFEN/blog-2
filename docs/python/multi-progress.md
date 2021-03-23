@@ -71,47 +71,97 @@
 
   + 传参
 
-    ```python
-    import multiprocessing
-    import time
-    import os
-    
-    
-    def sin(num):
-        print(os.getpid())  //获取当前进程 id
-        print(os.getppid()) //获取父进程 id
-        for i in range(num):
-            time.sleep(1)
-            print("唱歌......")
-    
-    
-    def dance(num):
-        print(os.getpid())  // 获取当前进程 id
-        print(os.getppid()) //获取父进程 id
-        for i in range(num):
-            time.sleep(1)
-            print("跳舞......")
-    
-    
-    if __name__ == '__main__':
-        process1 = multiprocessing.Process(target=sin,args=(3,))  //创建多进程
-        process2 = multiprocessing.Process(target=dance, args=(3,)) 
-        process1.start()   //启动多进程
-        process2.start()
-        
-        
-    结果：
-    15392
-    15104
-    1836
-    15104
-    唱歌......
-    跳舞......
-    唱歌......
-    跳舞......
-    唱歌......
-    跳舞......
-    ```
+    + 使用 args 传参
+
+      ```python
+      import multiprocessing
+      import time
+      import os
+      
+      
+      def sin(num):
+          print(os.getpid())  //获取当前进程 id
+          print(os.getppid()) //获取父进程 id
+          for i in range(num):
+              time.sleep(1)
+              print("唱歌......")
+      
+      
+      def dance(num):
+          print(os.getpid())  // 获取当前进程 id
+          print(os.getppid()) //获取父进程 id
+          for i in range(num):
+              time.sleep(1)
+              print("跳舞......")
+      
+      
+      if __name__ == '__main__':
+          process1 = multiprocessing.Process(target=sin,args=(3,))  //创建多进程
+          process2 = multiprocessing.Process(target=dance, args=(3,)) 
+          process1.start()   //启动多进程
+          process2.start()
+          
+          
+      结果：
+      15392
+      15104
+      1836
+      15104
+      唱歌......
+      跳舞......
+      唱歌......
+      跳舞......
+      唱歌......
+      跳舞......
+      ```
+
+      
+
+    + 使用 kwargs 传参
+
+      ```python
+      import multiprocessing
+      import time
+      import os
+      
+      
+      def sin(num):
+          print(os.getpid())  //获取当前进程 id
+          print(os.getppid()) //获取父进程 id
+          for i in range(num):
+              time.sleep(1)
+              print("唱歌......")
+      
+      
+      def dance(num):
+          print(os.getpid())  // 获取当前进程 id
+          print(os.getppid()) //获取父进程 id
+          for i in range(num):
+              time.sleep(1)
+              print("跳舞......")
+      
+      
+      if __name__ == '__main__':
+          process1 = multiprocessing.Process(target=sin,kwargs={"num":3})  //创建多进程
+          process2 = multiprocessing.Process(target=dance, kwargs={"num":3}) 
+          process1.start()   //启动多进程
+          process2.start()
+          
+          
+      结果：
+      5688
+      18800
+      12920
+      18800
+      唱歌......
+      跳舞......
+      唱歌......
+      跳舞......
+      唱歌......
+      跳舞......
+      ```
+
+      
 
   + 进程守护：主进程会在所有的子进程结束后再结束
 
