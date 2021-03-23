@@ -71,7 +71,7 @@
 
   + 传参
 
-    + 使用 args 传参
+    + 使用 args 传参：需要注意 args 中的参数必须与函数中的一一对应
 
       ```python
       import multiprocessing
