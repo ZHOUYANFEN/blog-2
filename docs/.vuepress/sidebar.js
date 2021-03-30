@@ -1,5 +1,5 @@
 module.exports = {
-  '/advanced-testing/': require('../advanced-testing/sidebar'),
+  '/advanced-testing/auto-test': require('../advanced-testing/auto-test/sidebar'),
   '/advanced-testing/auto-test/web-auto': require('../advanced-testing/auto-test/web-auto/sidebar'),
   '/advanced-testing/auto-test/miniprogram-auto': require('../advanced-testing/auto-test/miniprogram-auto/sidebar'),
   '/advanced-testing/interface-test/packet-capture-tool': require('../advanced-testing/interface-test/packet-capture-tool/sidebar'),
