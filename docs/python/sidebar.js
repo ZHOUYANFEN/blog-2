@@ -10,6 +10,11 @@ module.exports = [
 				collapsable: true
 			},
 			{
+				title: '装饰器',
+				path: '/python/decorator.md',
+				collapsable: true
+			},
+			{
 				title: '垃圾回收机制',
 				path: '/python/garbage-collection.md',
 				collapsable: true
