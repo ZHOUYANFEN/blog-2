@@ -39,3 +39,4 @@ dog.run()
 dog is running
 ```
 
+如果父类
