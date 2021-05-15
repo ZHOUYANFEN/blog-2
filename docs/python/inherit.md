@@ -39,4 +39,23 @@ dog.run()
 dog is running
 ```
 
-如果父类
+单继承中，可以调用父类的构造函数，使用 super 隐式调用，super 指的就是该类的父类
+
+```py
+class Base(object):
+    def __init__(self,name):
+        print('Create Base')
+        self.name = name
+        print(name)
+
+class A(Base):
+    def __init__(self,name):
+        # Base.__init__(self)
+        # super(A, self).__init__()
+        super().__init__(name)
+        print('Create A')
+
+print(A("zhang").name)
+
+```
+
