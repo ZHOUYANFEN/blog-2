@@ -59,3 +59,5 @@ print(A("zhang").name)
 
 ```
 
+## 多继承
+
