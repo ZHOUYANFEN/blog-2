@@ -37,7 +37,17 @@
 
 ###  **Selenium 2.0的工作原理** 
 
-**核心**：Selenium WebDriver 
+**核心**：Selenium WebDriver ， 典型的Server-Client模式 
 
 **原理**： 使用浏览器原生的 WebDriver 实现页面操作 
 
+**Selenium 2.0 工作原理图**：
+
+![webdriver](./images/webdriver.jpg)
+
+具体执行流程如下：
+
++ Selenium2.0 启动浏览器 Web Browser 时，后台会同时启动基于 WebDriver Wire 协议的 Web Service 作为Selenium 的 Remote Server，并将其与浏览器绑定，绑定完成后，Remote Server 就开始监听 Client 端的操作请求。
++ 执行测试时，测试用例会作为 Client 端，将需要执行的页面操作请求以 Http Request 的方式发送给 Remote Server。该 HTTP Request 的 body，是以 WebDriver Wire 协议规定的 JSON 格式来描述需要浏览器执行的具体操作。
++ Remote Server 接收到请求后，会对请求进行解析，并将解析结果发给 WebDriver，由 WebDriver 实际执行浏览器的操作。
++ WebDriver 可以看做是直接操作浏览器的原生组件（Native Component），所以搭建测试环境时，通常都需要先下载浏览器对应的 WebDriver
