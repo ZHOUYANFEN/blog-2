@@ -4,7 +4,7 @@
 
 ### Selenium 1.0 工作原理
 
-**核心**： Selenium RC （ Remote Control ）
+**核心**： Selenium RC （ Remote Control ）,基于JavaScript代码注入 
 
  **Selenium RC 利用的原理**   ： JavaScript 代码可以很方便地获取页面上的任何元素并执行各种操作 
 
