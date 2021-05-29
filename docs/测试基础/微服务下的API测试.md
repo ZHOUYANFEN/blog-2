@@ -78,3 +78,25 @@
 
 + 微服务之间的耦合关系
 
+例： 但是 Service T 的内部又调用了 Service X 和 Service Y， 如果 Service X 和 Service Y 由于各种原因处于不可用的状态，此时就无法对Service T进行完整的测试
+
+  ![耦合示例](./images/耦合示例.jpg)
+
+**解耦方式**： 实现 **Mock Service**来代替被依赖的真实 Service 
+
+**关键点**： 能够模拟真实 Service 的 Request 和 Response 
+
+**解决方法**：**基于消费契约的 API 测试**
+
+**基于消费契约的 API 测试**：
+
+举个栗子：
+
+被测对象：Service T 
+
+Service T 的使用者：Service A、Service B
+
+三者之间的关系：
+
+![关系](./images/关系.jpg)
+
