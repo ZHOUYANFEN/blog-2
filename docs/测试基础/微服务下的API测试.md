@@ -82,7 +82,7 @@
 
   ![耦合示例](./images/耦合示例.jpg)
 
-**解耦方式**： 实现 **Mock Service**来代替被依赖的真实 Service 
+**解耦方式**： 实现  **Mock Service** 来代替被依赖的真实 Service 
 
 **关键点**： 能够模拟真实 Service 的 Request 和 Response 
 
@@ -100,3 +100,30 @@ Service T 的使用者：Service A、Service B
 
 ![关系](./images/关系.jpg)
 
+**思考**：
+
++ Service T 的使用者是确定的， 只有 Service A 和 Service B  
++  如果可以把 Service A 和 Service B 对Service T 所有可能的调用方式都测试到，那么就一定可以保证 Service T 的质量 
++ 可能存在某些 Service T 的其他调用方式会出错，但系统中并没有其他 Service 会以这种可能出错的方式来调用 Service T，不会影响整个系统的功能 
+
+**问题转换**： 找到 Service A 和 Service B 对 Service T 所有可能的调用方式组成集合， 作为 Service T 的测试用例 
+
+**测试用例集合本质**： Service T 可以对外提供的**服务的契约**， 称为“基于消费者契约的API测试” 
+
+**问题解决方案**： 在逻辑结构上，在 Service T 前放置一个代理，所有进出 Service T 的 Request 和 Response 都会经过这个代理，并被记录成 JSON 文件，构成了 Service T 的契约 
+
+原理过程：
+
+![原理过程](./images/原理过程.jpg)
+
+**实际应用**：不可能在每个Service前去放置这样一个代理， 微服务架构中会存在一个叫作 API Gateway 的组件，用于记录所有 API 之间相互调用关系的日志，可以通过解析 API Gateway 的日志分析得到每个 Service 的契约 
+
+**微服务测试的依赖解耦和 Mock Service**：
+
+**契约的本质**： Request 和 Response 的组合，具体的表现形式往往是 JSON 文件 
+
+**Mock Service 依据**： 契约的 JSON 文件 
+
+![API 调用依赖](./images/API 调用依赖.jpg)
+
+**解耦服务之间的依赖**： 当用 Service X 的契约启动 Mock Service X 后，原本真实的 Service X 将被 Mock Service X 替代 
