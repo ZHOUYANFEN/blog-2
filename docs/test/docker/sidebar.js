@@ -8,12 +8,12 @@ module.exports = [
 				title: 'docker核心技术',
 				path: '/test/docker/核心技术.md',
 				collapsable: true
-			}，
+			},
     		{
 				title: 'docker安装',
 				path: '/test/docker/docker安装.md',
 				collapsable: true
-			}，
+			},
 			{
 				title: 'docker常用命令',
 				path: '/test/docker/docker常用命令.md',
@@ -31,5 +31,6 @@ module.exports = [
 			},
 			
     ]
+}
 
 ]
