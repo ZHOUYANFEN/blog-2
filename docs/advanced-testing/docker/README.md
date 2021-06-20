@@ -2,6 +2,10 @@
 
 ## Docker 概念
 
+## Docker 架构
+
+![拉取运行原理](./images/拉取运行原理.jpg)
+
 ## Docker 思想
 
 + 集装箱
