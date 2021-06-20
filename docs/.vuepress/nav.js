@@ -1,20 +1,18 @@
 module.exports = [
- {
-    text: '基础必备',
-    items: [
-     
-    ]
-  },
   {
-    text: '测试进阶',
+    text: '测试相关',
     items: [
-      { text: '自动化测试', link: '/advanced-testing/'},
+    { text: '测试基础', link: '/test/测试基础/'},
       	//items:[ 
       	//{ text: 'Web 篇', link: '/advanced-testing/auto-test/web-auto/' },
       	//{ text: '小程序篇', link: '/advanced-testing/auto-test/miniprogram-auto/' },]},
-    { text: '接口测试', link: '/advanced-testing/interface-test/' },
-    { text: '性能测试', link: '/advanced-testing/performance-test/' },
-    { text: 'Nginx', link: '/advanced-testing/nginx/' },
+    { text: '接口测试', link: '/test/interface-test/' },
+    { text: '性能测试', link: '/test/性能测试/' },
+    { text: '自动化测试', link: '/test/auto-test/'},
+    { text: '安全测试', link: '/test/safety-test/'},
+    { text: 'Nginx', link: '/test/nginx/' },
+    { text: 'Dcoker', link: '/test/docker/' },
+    { text: '面试相关', link: '/test/面试/' },
     ]
   },
     {
