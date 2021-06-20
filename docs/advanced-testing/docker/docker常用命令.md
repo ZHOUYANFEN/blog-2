@@ -57,6 +57,18 @@
 + 停止 docker 容器
 
   docker stop 容器名
+  
++ 构建镜像
+
+  docker build [option] .
+
+  .：表示当前目录
+
+  option：参数可选
+
+  例：docker build -t jpress:latest . 
+
+  给自己构建的镜像取名为 jpress，tag 为 latest
 
 ## 应用
 
