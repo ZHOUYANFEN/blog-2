@@ -1,0 +1,35 @@
+# pip 安装和应用
+
+## pip 安装
+
++ easy_install 安装
+
+  进入 easy_install 脚本的目录下，运行 easy_install pip
+
++ get-pip.py 安装
+
+  + 下载：curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py 
+  + 运行 python get_pip.py 
+  +  同时安装 setuptools 和 wheel 工具 
+
++ Linux 下安装
+
+  +  ubuntu：sudo apt-get install python-pip 
+  +  sudo yum install python-pip 
+
++ Windows 下安装
+
+  python 目录下 scripts 下运行  easy_install pip 
+
+## pip 更新
+
++ Linux 或 mac：
+
+   pip install -U pip 
+
++ windows：
+
+   python -m pip install -U pip 
+
+
+
