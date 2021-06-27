@@ -31,5 +31,31 @@
 
    python -m pip install -U pip 
 
+## pip 应用
 
++ 安装库为最新版本
+
+  pip install pillow
+
++ 安装指定版本
+
+   使用 ==, >=, <=, >, < 指定一个版本号 
+
+  pip install  Markdown<2.0 
+
++ 卸载已安装的库
+
+  pip uninstall pillow
+
++ 将已安装的库保存到文件中
+
+  pip freeze > requirements.txt
+
++ 根据 requirements 进行安装
+
+  pip install -r requirements.txt
+
++ 列出已安装的库
+
+  pip list
 
