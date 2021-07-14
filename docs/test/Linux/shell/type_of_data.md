@@ -126,7 +126,7 @@ valuen=${array_name[n]}
 + 获取所有元素
 
 ```bash
-${array_name[@]}
+${array_name[@]} || ${array_name[*]}
 ```
 
 ```bash
