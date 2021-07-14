@@ -24,3 +24,64 @@ for file in `ls /etc`
 for file in $(ls /etc)
 ```
 
+## 变量引用
+
+**语法：**在变量名前加 $ 符号
+
+```bash
+your_name="qinjx"
+echo $your_name
+echo ${your_name}
+```
+
+{}：用来识别变量边界
+
+```bash
+for file in `ls /ect` 
+do
+    echo "this is ${file}file"
+done
+```
+
+**变量重新赋值：**
+
+```bash
+your_name="tom"
+echo $your_name
+your_name="alibaba"
+echo $your_name
+```
+
+### 只读变量：
+
+**修饰关键字：**readonly
+
+**特点：**值不能被改变
+
+```bash
+#!/bin/bash
+myUrl="https://www.google.com"
+readonly myUrl
+myUrl="https://www.runoob.com"
+
+--------------------
+结果：
+/bin/sh: NAME: This variable is read only.
+```
+
+### 删除变量
+
+**语法：**`unset variable_name`
+
+```bash
+#!/bin/sh
+myUrl="https://www.runoob.com"
+unset myUrl
+echo $myUrl
+```
+
+**注意：**
+
++ 变量删除后不能被使用
++ unset 不能删除只读变量
+
