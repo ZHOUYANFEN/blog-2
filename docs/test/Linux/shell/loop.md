@@ -141,3 +141,78 @@ done
 9
 ```
 
+## case ... esac 
+
+**特点：**
+
++ 多选择分支语句
++  取值后面必须为单词 **in**，每一模式必须以右括号结束 
+
+**语法格式：**
+
+```bash
+case 值 in
+模式1)
+    command1
+    command2
+    ...
+    commandN
+    ;;
+模式2）
+    command1
+    command2
+    ...
+    commandN
+    ;;
+esac
+```
+
+例：
+
+```bash
+#!/bin/sh
+
+site="runoob"
+
+case "$site" in
+   "runoob") echo "菜鸟教程"
+   ;;
+   "google") echo "Google 搜索"
+   ;;
+   "taobao") echo "淘宝网"
+   ;;
+esac
+```
+
+## break
+
+ break 命令允许跳出所有循环 
+
+例：
+
+```bash
+#!/bin/bash
+while :
+do
+    echo -n "输入 1 到 5 之间的数字:"
+    read aNum
+    case $aNum in
+        1|2|3|4|5) echo "你输入的数字为 $aNum!"
+        ;;
+        *) echo "你输入的数字不是 1 到 5 之间的! 游戏结束"
+            break
+        ;;
+    esac
+done
+
+
+---------------------------------------------
+结果：
+输入 1 到 5 之间的数字:3
+你输入的数字为 3!
+输入 1 到 5 之间的数字:7
+你输入的数字不是 1 到 5 之间的! 游戏结束
+```
+
+## continue
+
