@@ -98,3 +98,46 @@ done
 for (( ; ; ))
 ```
 
+## until 循环
+
+ until 循环执行一系列命令直至条件为 true 时停止 
+
+ 一般 while 循环优于 until 循环，在某些情况下，until 循环更加有用 
+
+**语法格式：**
+
+```bash
+until condition
+do
+    command
+done
+```
+
+例：
+
+```bash
+#!/bin/bash
+
+a=0
+
+until [ ! $a -lt 10 ]
+do
+   echo $a
+   a=`expr $a + 1`
+done
+
+
+----------------------------------
+结果：
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+
