@@ -38,6 +38,18 @@ driver.get("https://www.baidu.com")
 driver.find_element_by_class_name("s_ipt").send_keys("test")
 ```
 
+**4. 通过 tag(标签属性) 定位**
+
+```python
+from selenium import webdriver
+driver = webdriver.Chrom()
+driver.get("https://www.baidu.com")
+#通过元素的 tag 进行定位元素
+driver.find_element_tag_name("input").send_keys("test")
+```
+
+
+
 
 
 
