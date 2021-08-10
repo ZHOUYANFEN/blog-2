@@ -78,15 +78,25 @@ driver.find_element_by_link_text('首页').send_keys("test")
 from selenium import webdriver
 driver = webdriver.Chrom()
 driver.get("https://www.baidu.com")
-#通过元素的 partial_link_text 进行定位元素
+#通过元素的 xpath 进行定位元素
 driver.find_element_by_xpath("//*[@id="kw"]").send_keys("test")
 ```
 
 对于 xpath 的理解，可以查看相对应的 [xpath](./xpath.md) 文章
 
+**8. 通过  CSS selector 定位**
 
+想理解 Css 选择器的定位方式，需要先了解下 css 语法
 
+```python
+from selenium import webdriver
+driver = webdriver.Chrom()
+driver.get("https://www.baidu.com")
+#通过元素的 CSS selector 进行定位元素
+driver.find_element_by_css_selector("#kw").send_keys("test")
+```
 
+css 选择器的语法有很多，可以参考 [Css selector](css_selector.md)
 
 
 
