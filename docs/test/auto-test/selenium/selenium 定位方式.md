@@ -28,6 +28,18 @@ driver.get("https://www.baidu.com")
 driver.find_element_by_name("wd").send_keys("test")
 ```
 
+**3. 通过 class_name 定位**
+
+```python
+from selenium import webdriver
+driver = webdriver.Chrom()
+driver.get("https://www.baidu.com")
+#通过元素的 class_name 进行定位元素
+driver.find_element_by_class_name("s_ipt").send_keys("test")
+```
+
+
+
 
 
 
