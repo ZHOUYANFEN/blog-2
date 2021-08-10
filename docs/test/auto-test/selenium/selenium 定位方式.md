@@ -70,6 +70,20 @@ driver.get("https://www.baidu.com")
 driver.find_element_by_link_text('首页').send_keys("test")
 ```
 
+**7. 通过 xpath 定位**
+
+ 利用浏览器调试功能，定位到元素所在的那一行右键-->Copy-->Copy XPath 
+
+```python
+from selenium import webdriver
+driver = webdriver.Chrom()
+driver.get("https://www.baidu.com")
+#通过元素的 partial_link_text 进行定位元素
+driver.find_element_by_xpath("//*[@id="kw"]").send_keys("test")
+```
+
+对于 xpath 的理解，可以查看相对应的 [xpath](./xpath.md) 文章
+
 
 
 
