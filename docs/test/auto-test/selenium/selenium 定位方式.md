@@ -48,6 +48,18 @@ driver.get("https://www.baidu.com")
 driver.find_element_tag_name("input").send_keys("test")
 ```
 
+**5. 通过 link_text(链接文本) 定位**
+
+```python
+from selenium import webdriver
+driver = webdriver.Chrom()
+driver.get("https://www.baidu.com")
+#通过元素的 link_text 进行定位元素
+driver.find_element_by_link_text('百度首页').send_keys("test")
+```
+
+
+
 
 
 
