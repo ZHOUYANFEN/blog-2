@@ -58,6 +58,18 @@ driver.get("https://www.baidu.com")
 driver.find_element_by_link_text('百度首页').send_keys("test")
 ```
 
+**6. 通过 partial_link_text(链接文本) 定位**
+
+与上面的 link_text 类似，会模糊匹配 link_ text 中的文字
+
+```python
+from selenium import webdriver
+driver = webdriver.Chrom()
+driver.get("https://www.baidu.com")
+#通过元素的 partial_link_text 进行定位元素
+driver.find_element_by_link_text('首页').send_keys("test")
+```
+
 
 
 
