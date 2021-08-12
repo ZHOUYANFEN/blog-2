@@ -32,68 +32,70 @@ xpath 路径：//input[@id='kw' and @class='s_ipt']
 
 #### 3.1. text()
 
-//tag[text()=xx],这里用百度首页里面的"hao123"链接举例子
+**语法：**//tag[text()=xx]
 
-//a[text()='hao123']
+这里用百度首页里面的 "hao123" 链接举例子
 
+![baidu1](../images/baidu1.jpg)
 
+```
+ xpath 路径：//a[text()='hao123']
+```
 
-![img](https:////upload-images.jianshu.io/upload_images/6747408-4961d85b7ff6ea1e.png?imageMogr2/auto-orient/strip|imageView2/2/w/1039/format/webp)
+#### 3.2 contains() 包含定位
 
-定位"hao123"
+**语法：**//tag[contains(text(),xx)] 或者//tag[contains(@attr,xx)]
 
-**3.2 contains() 包含定位**
+前面一个是文本，后面一个是包含属性前面都讲了直接 @属性定位
 
-//tag[contains(text(),xx)] ，//tag[contains(@attr,xx)]，前面一个是文本，后面一个是包含属性前面都讲了直接@属性定位，这里就不讲了
+![baidu1](../images/baidu1.jpg)
 
-//a[contains(text(),'hao')] 这里同样是定位"hao123"这个链接，当然你也可以写全
-
-![img](https:////upload-images.jianshu.io/upload_images/6747408-bd1c6a61daff772d.png?imageMogr2/auto-orient/strip|imageView2/2/w/1024/format/webp)
-
-包含文本定位
-
-
-
-![img](https:////upload-images.jianshu.io/upload_images/6747408-7afed65dde4957b4.png?imageMogr2/auto-orient/strip|imageView2/2/w/967/format/webp)
-
-包含属性定位
+```
+ xpath 路径：//a[contains(text(),'hao123')]
+```
 
 ### 4.position()=n 位置定位
 
-//tag[@attr=attr][position()=n] 这里还是定位"hao123" 。//a[@class='mnav'][position()=2]  n表示第几个元素，n从1开始
+**语法：**//tag[@attr=attr][position()=2]
 
+ n 表示第几个元素，n 从 1 开始
 
+![baidu1](../images/baidu1.jpg)
 
-![img](https:////upload-images.jianshu.io/upload_images/6747408-e4fb957659ab50f1.png?imageMogr2/auto-orient/strip|imageView2/2/w/1022/format/webp)
-
-定位"hao123"
+```
+ xpath 路径：//a[@class='mnav'][position()=2]
+```
 
 ### 5. last()-n
 
-n=0或者不写last()默认倒数第一个，n=1倒数第二，以此类推 
+n=0 或者不写 last() 默认倒数第一个，n=1 倒数第二，以此类推 
+
+![baidu1](../images/baidu1.jpg)
+
+```
+xpath 路径：//div[@id='s-top-left']/a[last()-5]
+```
 
 
-
-![img](https:////upload-images.jianshu.io/upload_images/6747408-6cb89d7acb776051.png?imageMogr2/auto-orient/strip|imageView2/2/w/979/format/webp)
-
-定位"hao123"
 
 ### 6.following-sibling 选取当前节点之后的所有同级节点
 
-这里定位"hao123"这个a标签的父级元素(div)的同级的第一个div
+定位 "hao123" 这个 a 标签的父级元素(div)的同级的第一个div
 
+![baidu1](../images/baidu1.jpg)
 
+```
+xpath 路径：//div[@id='s-top-left']/following-sibling::div[1]
+```
 
-![img](https:////upload-images.jianshu.io/upload_images/6747408-6c92925ea6df12b1.png?imageMogr2/auto-orient/strip|imageView2/2/w/959/format/webp)
+### 7. preceding-sibling 选取当前节点之前的所有同级节点
 
-### 7.preceding-sibling 选取当前节点之前的所有同级节点
+7 和 6 相反的，6 是同级往下走，7 是同级往上走的
 
-7和6相反的，6是同级往下走，7是同级往上走的
+定位 "hao123" 这个 a 标签的父级元素(div)的同级的第一个div
 
+![baidu1](../images/baidu1.jpg)
 
-
-![img](https:////upload-images.jianshu.io/upload_images/6747408-7746dfcd3672a608.png?imageMogr2/auto-orient/strip|imageView2/2/w/1030/format/webp)
-
-
-
-6和7定位不怎么用，但是在selenium定位元素的时候还用到过，大家了解知道有这么个东西就好了
+```
+xpath 路径：//div[@id='s-top-left']/preceding-sibling::div[1]
+```
