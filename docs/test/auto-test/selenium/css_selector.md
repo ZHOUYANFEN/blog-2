@@ -12,18 +12,20 @@
 
 **常见的选择器：**
 
-| 器                  | 名字            | 例子       | 例子描述                                                     |
+| 选择器              | 名字            | 例子       | 例子描述                                                     |
 | ------------------- | --------------- | ---------- | ------------------------------------------------------------ |
 | **基础选择器**      |                 |            |                                                              |
 | .class              | class选择器     | .intro     | 选择 class="intro" 的所有元素。                              |
-| #id                 | id选择器        | #firstname | 选择 id="firstname" 的所有元素。                             |
+| #id                 | id选择器        | #firstname | 选择 id="firstname" 的元素。                                 |
 | *                   | 通配符          |            | 选择所有元素。                                               |
 | element             | 标签选择器      | p          | 选择所有 <p> 元素。                                          |
-| **多层选择器**      |                 |            |                                                              |
+| elemnt.class        | 特定class的标签 | input.kw   | 选择所有class='kw'的<input>元素                              |
+| **关系选择器**      |                 |            |                                                              |
 | element,element     | 分组选择器      | div,p      | 同时选择所有 <div> 元素和所有 <p> 元素。                     |
 | element element     | 后端选择器      | div p      | 选择 <div> 元素内部的所有 <p> 元素**（包括子元素、孙子元素）** |
 | element>element     | 子元素选择器    | div>p      | 选择 <div> 元素下的 <p> **子元素**。                         |
-| element+element     | 相邻选择器      | div+p      | 选择 <div> 元素**之后的所有兄弟** <p> 元素。                 |
+| element+element     | 相邻选择器      | div+p      | 选择 <div> 元素**之后的第一个兄弟** <p> 元素。               |
+| element~element     | 兄弟选择器      | div~p      | 选择 <div> 元素**之后的所有兄弟** <p> 元素。                 |
 | **属性选择器**      |                 |            |                                                              |
 | [attr]              | [target]        |            | 选择带有 target 属性所有元素。                               |
 | [attribute=value]   | [target=_blank] |            | 选择 target="_blank" 的所有元素。                            |
