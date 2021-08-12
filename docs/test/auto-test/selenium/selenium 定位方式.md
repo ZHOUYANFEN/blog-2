@@ -82,7 +82,7 @@ driver.get("https://www.baidu.com")
 driver.find_element_by_xpath("//*[@id="kw"]").send_keys("test")
 ```
 
-对于 xpath 的理解，可以查看相对应的 [xpath](xpath原理.md) 
+对于 xpath 的理解，可以查看相对应的 [xpath语法](xpath原理.md) 和 [selenium中xpath定位方式](selenium中xpath定位方式.md)
 
 **8. 通过  CSS selector 定位**
 
