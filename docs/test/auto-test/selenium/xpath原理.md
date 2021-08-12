@@ -2,7 +2,7 @@
 
 **简介：**XPath 是 XML 的路径语言，简单点说就是通过元素的路径来查找这个标签元素
 
-**相关语法**
+### 相关语法
 
 **1. 获取节点**
 
@@ -25,3 +25,24 @@
 | //book          | 选取所有 book 子元素，而不管它们在文档中的位置。             |
 | bookstore//book | 选择属于 bookstore 元素的后代的所有 book 元素，而不管它们位于 bookstore 之下的什么位置。 |
 | //@lang         | 选取名为 lang 的所有属性。                                   |
+
+**2. 谓语**
+
+**特点：**
+
++  用来查找某个特定的节点或者包含某个指定的值的节点 
++  谓语被嵌在方括号中 
+
+**常见谓语表达式：**
+
+| 路径表达式                          | 结果                                                         |
+| :---------------------------------- | :----------------------------------------------------------- |
+| /bookstore/book[1]                  | 选取属于 bookstore 子元素的第一个 book 元素。                |
+| /bookstore/book[last()]             | 选取属于 bookstore 子元素的最后一个 book 元素。              |
+| /bookstore/book[last()-1]           | 选取属于 bookstore 子元素的倒数第二个 book 元素。            |
+| /bookstore/book[position()<3]       | 选取最前面的两个属于 bookstore 元素的子元素的 book 元素。    |
+| //title[@lang]                      | 选取所有拥有名为 lang 的属性的 title 元素。                  |
+| //title[@lang='eng']                | 选取所有 title 元素，且这些元素拥有值为 eng 的 lang 属性。   |
+| /bookstore/book[price>35.00]        | 选取 bookstore 元素的所有 book 元素，且其中的 price 元素的值须大于 35.00。 |
+| /bookstore/book[price>35.00]//title | 选取 bookstore 元素中的 book 元素的所有 title 元素，且其中的 price 元素的值须大于 35.00。 |
+
