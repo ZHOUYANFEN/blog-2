@@ -12,7 +12,7 @@
 
 **Selenium RC 组成** ：
 
-![RC](E:/myself/project/blog/docs/advanced-testing/auto-test/web-auto/images/RC.jpg)
+![RC](../images/RC.jpg)
 
  **Selenium RC Server** ：
 
@@ -24,7 +24,7 @@
 
 **Selenium RC的执行流程 **：
 
-![RC流程](/images/RC流程.jpg)
+![RC流程](../images/RC流程.jpg)
 
 具体如下：
 
@@ -43,7 +43,7 @@
 
 **Selenium 2.0 工作原理图**：
 
-![webdriver](/images/webdriver.jpg)
+![webdriver](../images/webdriver.jpg)
 
 具体执行流程如下：
 
