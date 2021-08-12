@@ -1,4 +1,4 @@
-# baiduselenium中xpath定位方式
+# selenium中xpath定位方式
 
 了解了 xpath 的一些语法后，可以在 selenium 中使用 xpath 来定位一些元素
 
