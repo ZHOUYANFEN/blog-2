@@ -22,6 +22,7 @@
 | elemnt.class        | 特定class的标签                             | input.kw        | 选择所有class='kw'的<input>元素                              |
 | **关系选择器**      |                                             |                 |                                                              |
 | element,element     | 分组选择器                                  | div,p           | 同时选择所有 <div> 元素和所有 <p> 元素。                     |
+| :not(element)       | 选取不被选中的元素                          | :not(div)       | 选取除 <div> 之外的所有元素                                  |
 | element element     | 后端选择器                                  | div p           | 选择 <div> 元素内部的所有 <p> 元素**（包括子元素、孙子元素）** |
 | element>element     | 子元素选择器                                | div>p           | 选择 <div> 元素下的 <p> **子元素**。                         |
 | element+element     | 相邻选择器                                  | div+p           | 选择 <div> 元素**之后的第一个兄弟** <p> 元素。               |
@@ -34,4 +35,15 @@
 | [attribute^=value]  | 选取属性值以 value 开头的元素               | [title^=flower] | 选择 title 属性以单词 "flower" 开头的所有元素。              |
 | [attribute$=value]  | 选取属性值以 value 结尾的元素               | [title$=flower] | 选择 title 属性以单词 "flower" 结尾的所有元素。              |
 | [attribute*=value]  | 选取属性值包含 value 的元素                 | [title*=flower] | 选择 title 属性包含 "flower" 所有元素。                      |
+
+**伪类和伪元素选择器：**
+
+| 选择器               | 例子                  | 例子描述                                         |
+| -------------------- | --------------------- | ------------------------------------------------ |
+| :first-child         | p:first-child         | 选择属于父元素的第一个子元素的每个 <p> 元素。    |
+| :nth-child(n)        | p:nth-child(2)        | 选择属于其父元素的第二个子元素的每个 <p> 元素。  |
+| :nth-last-child(n)   | p:nth-last-child(2)   | 同上，从最后一个子元素开始计数。                 |
+| :nth-of-type(n)      | p:nth-of-type(2)      | 选择属于其父元素第二个 <p> 元素的每个 <p> 元素。 |
+| :nth-last-of-type(n) | p:nth-last-of-type(2) | 同上，但是从最后一个子元素开始计数。             |
+| :last-child          | p:last-child          | 选择属于其父元素最后一个子元素每个 <p> 元素。    |
 
