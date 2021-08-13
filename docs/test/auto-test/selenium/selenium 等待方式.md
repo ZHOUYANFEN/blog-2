@@ -50,7 +50,50 @@ driver.quit()
 
 **缺点：**一直等待整个页面全部加载完成，包括 js 、css 代码，才会执行下一步
 
-#### 3. 隐性等待
+#### 3. 显性等待
+
+使用  WebDriverWait 配合 until() 和 until_not() 方法，根据判断条件是否成立，进行下一步操作，否则等待至设置的最长时间，抛出异常
+
+```python
+from selenium import webdriver
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+
+driver = webdriver.Firefox()
+driver.implicitly_wait(10)  # 隐性等待和显性等待可以同时用，但要注意：等待的最长时间取两者之中的大者
+driver.get('https://huilansame.github.io')
+locator = (By.LINK_TEXT, 'CSDN')
+
+try:
+    WebDriverWait(driver, 20, 0.5).until(EC.presence_of_element_located(locator))
+    print driver.find_element_by_link_text('CSDN').get_attribute('href')
+finally:
+    driver.close()
+```
+
+**注意：**
+
++ 在  WebDriverWait..中显性等待起主要作用，其他操作中，隐性等待起决定性作用
++ 同时存在隐性和显性时，等待时间取两者之间的大者
+
+**WebDriverWait类：**
+
+引用：
+
+```python
+selenium.webdriver.support.wait.WebDriverWait
+```
+
+相关参数（从左至右依次）：
+
+driver：webdriver 的实例
+
+timeout：等待超时时间
+
+poll_frequency：调用 until 或 until_not 中的方法的间隔时间，默认是 0.5 秒
+
+ignored_exceptions：忽略的异常， 如果在调用until或until_not的过程中抛出这个元组中的异常，则不中断代码，继续等待，如果抛出的是这个元组外的异常，则中断代码，抛出异常。默认只有NoSuchElementException 
 
 
 
