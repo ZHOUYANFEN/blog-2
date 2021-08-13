@@ -52,7 +52,11 @@ driver.quit()
 
 #### 3. 显性等待
 
-使用  WebDriverWait 配合 until() 和 until_not() 方法，根据判断条件是否成立，进行下一步操作，否则等待至设置的最长时间，抛出异常
+**使用方法**：WebDriverWait(driver, timeout, poll_frequency, ignored_exceptions).until(要执行的方法, 超时时返回的错误信息) 
+
+**优点：** 等待判断准确，不会浪费多余的等待时间，在用例中使用，可以提高执行效率 
+
+**缺点：** 使用相对比较复杂 
 
 ```python
 from selenium import webdriver
@@ -94,6 +98,8 @@ timeout：等待超时时间
 poll_frequency：调用 until 或 until_not 中的方法的间隔时间，默认是 0.5 秒
 
 ignored_exceptions：忽略的异常， 如果在调用until或until_not的过程中抛出这个元组中的异常，则不中断代码，继续等待，如果抛出的是这个元组外的异常，则中断代码，抛出异常。默认只有NoSuchElementException 
+
+相关方法：
 
 
 
