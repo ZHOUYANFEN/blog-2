@@ -6,7 +6,7 @@ module.exports = config({
     dest: './dist',
     port: '7777',
     head: [
-        ['link', { rel: 'icon', href: '/img/favicon.png' }],
+        ['link', { rel: 'icon', href: '/img/snow.png' }],
         ['link', { rel: 'stylesheet', href: '/css/style.css' }],
         ['script', { charset: 'utf-8', src: 'https://unpkg.com/sweetalert/dist/sweetalert.min.js' }],
         ['script', { charset: 'utf-8', src: '/js/main.js' }]
@@ -22,7 +22,7 @@ module.exports = config({
     themeConfig: {
         docsRepo: 'xuefengji/blog',
         docsDir: 'docs',
-        logo: '/img/logo.png',
+        logo: '/img/snow.png',
         nav: require('./nav.js'),
         sidebar: require('./sidebar.js'),
         sidebarDepth: 2,

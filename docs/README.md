@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/tx.jpg
+heroImage: /img/snowji.png
 actionText: 进入笔记 →
 actionLink: /guide/
 action:

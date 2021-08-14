@@ -13,6 +13,8 @@ module.exports = [
   {
     text: '必知必会',
     items: [
+      { text: 'Linux', link: '/basic-skills/linux/' },
+      { text: 'Git', link: '/basic-skills/git/' },
       { text: 'Nginx', link: '/basic-skills/nginx/' },
       { text: 'Docker', link: '/basic-skills/docker/' },
     ]
