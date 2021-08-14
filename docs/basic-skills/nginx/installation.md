@@ -1,12 +1,13 @@
+# Nginx 安装
+
 ## Linux 环境
 
+**安装包下载**
+
 Linux环境版本：centos 7
-
-## 1. 安装包下载
-
 在网站：http://nginx.org/en/download.html 上下载相应的版本，本次下载 nginx-1.21.0.tar.gz 
 
-## 2. 安装步骤
+**安装步骤**
 
 + 解压
 
@@ -42,4 +43,4 @@ Linux环境版本：centos 7
 
   访问地址：XXXX.XXXX.XXXX.XXXX:80
 
- ![nginx](E:\myself\project\blog\docs\advanced-testing\nginx\images\nginx.png)
+ ![nginx](./images/nginx.png)
