@@ -142,3 +142,25 @@ ignored_exceptions：忽略的异常， 如果在调用until或until_not的过�
 
   **验证元素是否被选中：**
 
+  + element_to_be_selected：传入webelement 对象
+
+  + element_located_to_be_selected：传入 locator 元组
+
+  + element_selection_state_to_be：传入 webelement 对象以及状态，相等返回 true
+
+  + element_located_selection_state_to_be：传入 locator 以及状态，相等返回 true
+
+​       **判断元素是否仍在 DOM 中：**
+
+​		 staleness_of ：传入 webelement 对象，可以判断是否刷新
+
+​	  **常见 WebElement 方法：**
+
+​		is_displayed() ：判断元素是否展示出来
+
+​        is_enabled()：判断元素是否可操作
+
+​        is_selected()：判断元素是否被选中
+
+​		
+
