@@ -100,6 +100,45 @@ poll_frequency：调用 until 或 until_not 中的方法的间隔时间，默认
 ignored_exceptions：忽略的异常， 如果在调用until或until_not的过程中抛出这个元组中的异常，则不中断代码，继续等待，如果抛出的是这个元组外的异常，则中断代码，抛出异常。默认只有NoSuchElementException 
 
 相关方法：
++ until()
 
+  直到条件成立返回真，等待结束
 
+  超时，抛出 TimeoutExceion 异常
+
++ until_not()
+
+  直到条件不成立返回真，等待结束
+
+  超时，抛出 TimeoutExceion 异常
+
++ expected_conditions 异常处理模块
+
+  **验证元素是否出现：**
+
+  传入的参数都是元组类型 locator
+
+  + presence_of_element_located
+  + presence_of_all_elements_located
+
+  **验证元素是否可见：**
+
+  + visibility_of_element_located：传入元组
+  + invisibility_of_element_located：传入元组
+  + visibility_of：传入 webelement
+
+  **验证文本是否出现在元素：**
+
+  + text_to_be_present_in_element：判断元素的 text
+  + text_to_be_present_in_element_value：判断元素的 value
+
+  **验证是否可切入frame：**
+
+   frame_to_be_available_and_switch_to_it ：可传入元组或直接定位的方式
+
+  **验证元素是否可点击：**
+
+   element_to_be_clickable ：传入 locator
+
+  **验证元素是否被选中：**
 
