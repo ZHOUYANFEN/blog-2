@@ -1,30 +1,59 @@
-module.exports = {
-    title: "XueF's Blog",
-    description: '一名测试女生的个人博客',
+const { config } = require('vuepress-theme-hope')
+
+module.exports = config({
+    title: '测试开发手册',
+    description: '纪小雪的测试笔记',
     dest: './dist',
     port: '7777',
     head: [
-        ["link", { rel: "stylesheet", href: "/css/style.css" }],
-        ["script", { charset: "utf-8", src: "/js/main.js" }]
+        ['link', { rel: 'icon', href: '/img/favicon.png' }],
+        ['link', { rel: 'stylesheet', href: '/css/style.css' }],
+        ['script', { charset: 'utf-8', src: 'https://unpkg.com/sweetalert/dist/sweetalert.min.js' }],
+        ['script', { charset: 'utf-8', src: '/js/main.js' }]
     ],
     markdown: {
         lineNumbers: true
     },
+    locales: {
+        '/': {
+            lang: 'zh-CN'
+        }
+    },
     themeConfig: {
+        docsRepo: 'xuefengji/blog',
+        docsDir: 'docs',
+        logo: '/img/logo.png',
         nav: require('./nav.js'),
         sidebar: require('./sidebar.js'),
         sidebarDepth: 2,
-        lastUpdated: 'Last Updated',
+        lastUpdated: '上次更新',
         searchMaxSuggestoins: 10,
-        serviceWorker: {
-            updatePopup: {
-                message: "有新的内容.",
-                buttonText: '更新'
-            }
-        },
         editLinks: true,
-        editLinkText: '在 GitHub 上编辑此页 ！',
-        smoothScroll: true
+        editLinkText: '帮助我们改善此页面！',
+        smoothScroll: true,
+        // vuepress-theme-hope config
+        author: 'snowji',
+        hostname: 'https://www.snowji.cn',
+        darkmode: 'disable',
+        themeColor: false,
+        blog: false,
+        pageInfo: false,
+        mdEnhance: {
+            enableAll: false
+        },
+        comment: false,
+        copyright: false,
+        git: {
+            timezone: 'Asia/Shanghai'
+        },
+        pwa: false,
+        copyCode: false,
+        photoSwipe: false,
+        repoDisplay: false,
+        fullscreen: false,
+        sidebarIcon: false,
+        breadcrumb: false,
+        contributor: false
     },
-    plugins: ['@vuepress/back-to-top']
-}
+    plugins: ['one-click-copy']
+})

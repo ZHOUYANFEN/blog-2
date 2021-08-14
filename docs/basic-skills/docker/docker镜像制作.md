@@ -28,11 +28,11 @@ COPY jpress.war /usr/local/tomcat/webapps 将jpress.war文件拷贝至tomcat的w
 
   访问 8888 端口：
 
-  ![tomcat](./images/tomcat.jpg)
+  ![tomcat](images/tomcat.jpg)
 
   访问 jpress
 
-  ![jpress](./images/jpress.jpg)
+  ![jpress](images/jpress.jpg)
 
 + 安装 mysql 数据库
 
@@ -42,7 +42,7 @@ COPY jpress.war /usr/local/tomcat/webapps 将jpress.war文件拷贝至tomcat的w
 
 + 下一步填写 mysql 信息
 
-![安装向导](./images/安装向导.jpg)
+![安装向导](images/安装向导.jpg)
 
 + 重启 jpress 容器
 
@@ -50,4 +50,4 @@ COPY jpress.war /usr/local/tomcat/webapps 将jpress.war文件拷贝至tomcat的w
 
   重新加载网页：
 
-  ![jpress1](./images/jpress1.jpg)
+  ![jpress1](images/jpress1.jpg)

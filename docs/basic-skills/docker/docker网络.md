@@ -2,7 +2,7 @@
 
 ## 网络类型
 
-![网络模式](./images/网络模式.jpg)
+![网络模式](images/网络模式.jpg)
 
 + Bridge (默认模式)
 
@@ -44,7 +44,7 @@
 
 + 访问 host:8080
 
-  ![访问nginx](./images/访问nginx.jpg)
+  ![访问nginx](images/访问nginx.jpg)
 
 
 
@@ -74,7 +74,7 @@
 
 + 访问 host:49154 
 
-  ![访问nginx](./images/49154.jpg)
+  ![访问nginx](images/49154.jpg)
 
 
 

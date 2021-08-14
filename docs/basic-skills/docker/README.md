@@ -4,7 +4,7 @@
 
 ## Docker 架构
 
-![拉取运行原理](./images/拉取运行原理.jpg)
+![拉取运行原理](images/拉取运行原理.jpg)
 
 ## Docker 思想
 

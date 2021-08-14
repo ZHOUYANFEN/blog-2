@@ -1,12 +1,10 @@
-# Python 学习
+# Python 简介
 
-## Python 简介
-
-### 1. 简介
+## 简介
 
 Python 是一种计算机设计语言，常被称作解释性语言，与 Javascript 一样是一门动态的语言，语法上没有像其他语言严谨，如：Java 、C 语言等。相比之下，语法更简单，更容易入门。
 
-### 2. 解释器
+## 解释器
 
 + CPython
 
@@ -24,9 +22,10 @@ Python 是一种计算机设计语言，常被称作解释性语言，与 Javasc
 
   是运行在 Java 平台上的 Python 解释器，可以直接把 Python 代码编译成 Java 代码
 
-### 3. 环境搭建
+## 环境搭建
+
 目前 Python 2 从 2020.01.01 日起，将不支持更新，本博客基于 Python3 。
 
 +  从  https://www.python.org/getit/  网站上，根据情况下载相应的安装包
 +  安装后，需要将安装目录下的 python.exe 所在目录路径添加至环境变量中
-+  完成后，在 cmd 或 shell 中输入 python -V 查看是否安装成功
++  完成后，在 cmd 或 shell 中输入 `python -V` 查看是否安装成功
