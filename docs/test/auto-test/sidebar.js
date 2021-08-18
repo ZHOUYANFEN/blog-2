@@ -6,7 +6,7 @@ module.exports = [
     children: [
 			{
 				title: '',
-				path: '/advanced-testing/auto-test/web-auto/web-basics.md',
+				path: '/test/auto-test/web-basics.md',
 				collapsable: true
 			}
     ]
