@@ -1,19 +1,19 @@
 module.exports = [
   {
-    title: '自动化测试必备',
-	  path: '/test/auto-test/',
+    title: '接口测试',
+	path: '/test/interface-test/',
     collapsable: false,
     children: [
 			{
 				title: '',
-				path: '/test/auto-test/web-basics.md',
+				path: '/test/interface-test/web-basics.md',
 				collapsable: true
 			}
     ]
   },
   {
-    title: 'selenium 框架',
-	  path: '/test/auto-test/selenium/',
+    title: '抓包工具',
+	path: '/test/interface-test/',
     collapsable: false,
     children: [
 			{
