@@ -1,5 +1,6 @@
 module.exports = {
   /* --------- 测试相关 --------- */
+  '/test/basic-essentials': require('../test/basic-essentials/sidebar'),
   '/test/auto-test/': require('../test/auto-test/sidebar'),
   '/test/interface-test/': require('../test/interface-test/sidebar'),
   '/test/interface-test/packet-capture-tool/': require('../test/interface-test/packet-capture-tool/sidebar'),

@@ -2,7 +2,7 @@ module.exports = [
   {
     text: '测试相关',
     items: [
-      { text: '测试基础', link: '/test/测试基础/' },
+      { text: '测试基础', link: '/test/basic-essentials/' },
       { text: '接口测试', link: '/test/interface-test/' },
       { text: '性能测试', link: '/test/性能测试/' },
       { text: '自动化测试', link: '/test/auto-test/' },
