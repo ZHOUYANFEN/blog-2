@@ -1,32 +1,26 @@
 module.exports = [
   {
-    title: '接口测试',
-	  path: '/test/interface-test/',
-    collapsable: false
-  },
-  {
-    title: '抓包',
-    path: '/test/interface-test/packet-capture-tool',
+    title: '自动化测试必备',
+	  path: '/test/auto-test/',
     collapsable: false,
     children: [
-      {
-        title: 'fiddler',
-        path: '/test/interface-test/packet-capture-tool/fiddler',
-        collapsable: true,
-          children: [
-            {
-              title: '基础',
-              path: '/test/interface-test/packet-capture-tool/fiddler/Fiddler.md',
-              collapsable: true
-            },
-            {
-            title: '断点',
-            path: '/test/interface-test/packet-capture-tool/fiddler/breakpoints.md',
-            collapsable: true
-            }
-
-        ]
-      }
+			{
+				title: '',
+				path: '/test/auto-test/web-basics.md',
+				collapsable: true
+			}
+    ]
+  },
+  {
+    title: 'selenium 框架',
+	  path: '/test/auto-test/selenium/',
+    collapsable: false,
+    children: [
+			{
+				title: '一、自动化基础',
+				path: '/advanced-testing/auto-test/miniprogram-auto/miniprogram-basics.md',
+				collapsable: true
+			}
     ]
   }
 ]

@@ -1,6 +1,7 @@
 module.exports = {
   /* --------- 测试相关 --------- */
   '/test/auto-test/': require('../test/auto-test/sidebar'),
+  '/test/interface-test/': require('../test/interface-test/sidebar'),
   '/test/interface-test/packet-capture-tool/': require('../test/interface-test/packet-capture-tool/sidebar'),
   '/test/interface-test/packet-capture-tool/fiddler/': require('../test/interface-test/packet-capture-tool/fiddler/sidebar'),
   /* --------- 必知必会 --------- */
