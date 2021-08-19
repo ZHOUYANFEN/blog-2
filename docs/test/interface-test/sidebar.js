@@ -3,23 +3,24 @@ module.exports = [
     title: '接口测试',
 	path: '/test/interface-test/',
     collapsable: false,
-    children: [
-			{
-				title: '',
-				path: '/test/interface-test/web-basics.md',
-				collapsable: true
-			}
-    ]
+    children: []
   },
   {
     title: '抓包工具',
-	path: '/test/interface-test/',
+	path: '/test/interface-test/packet-capture-tool/',
     collapsable: false,
     children: [
 			{
-				title: '一、自动化基础',
-				path: '/advanced-testing/auto-test/miniprogram-auto/miniprogram-basics.md',
-				collapsable: true
+				title: 'fiddler',
+				path: '/test/interface-test/packet-capture-tool/fiddler',
+				collapsable: false,
+				children: [
+					{
+						title: '断点',
+						path: '/test/interface-test/packet-capture-tool/fiddler/breakpoints.md',
+						collapsable: true,
+					}
+				]
 			}
     ]
   }
