@@ -4,6 +4,8 @@ module.exports = {
   '/test/auto-test/': require('../test/auto-test/sidebar'),
   '/test/interface-test/': require('../test/interface-test/sidebar'),
   '/test/performance-test/': require('../test/performance-test/sidebar'),
+  '/test/safety-test/': require('../test/safety-test/sidebar'),
+  '/test/interview/': require('../test/interview/sidebar'),
   /* --------- 必知必会 --------- */
   '/basic-skills/git/': require('../basic-skills/git/sidebar'),
   '/basic-skills/nginx/': require('../basic-skills/nginx/sidebar'),
