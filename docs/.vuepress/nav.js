@@ -7,7 +7,7 @@ module.exports = [
       { text: '性能测试', link: '/test/performance-test/' },
       { text: '自动化测试', link: '/test/auto-test/' },
       { text: '安全测试', link: '/test/safety-test/' },
-      { text: '面试相关', link: '/test/面试/' }
+      { text: '面试相关', link: '/test/interview/' }
     ]
   },
   {
@@ -23,6 +23,12 @@ module.exports = [
     text: '编程语言',
     items: [
       { text: 'Python', link: '/languages/python/' },
+    ]
+  },
+   {
+    text: '数据存储',
+    items: [
+      { text: 'MySQL', link: '/databases/mysql/' },
     ]
   },
   {
