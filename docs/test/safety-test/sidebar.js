@@ -1,24 +1,25 @@
 module.exports = [
   {
-    title: '自动化测试必备',
-	  path: '/test/auto-test/',
+    title: '安全测试必备',
+	path: '/test/safety-test/',
     collapsable: false,
     children: [
-			{
-				title: '',
-				path: '/test/auto-test/web-basics.md',
-				collapsable: true
-			}
+			
     ]
   },
   {
-    title: 'selenium 框架',
-	  path: '/test/auto-test/selenium/',
+    title: 'Web安全测试',
+	  path: '/test/safety-test/web-security',
     collapsable: false,
     children: [
 			{
-				title: '一、自动化基础',
-				path: '/advanced-testing/auto-test/miniprogram-auto/miniprogram-basics.md',
+				title: 'XSS',
+				path: '/test/safety-test/web-security/XSS.md',
+				collapsable: true
+			},
+			{
+				title: 'csrf',
+				path: '/test/safety-test/web-security/csrf.md',
 				collapsable: true
 			}
     ]
