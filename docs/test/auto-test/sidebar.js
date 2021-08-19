@@ -13,7 +13,7 @@ module.exports = [
 				title: '数据驱动与页面对象模型',
 				path: '/test/auto-test/数据驱动与页面对象模型.md',
 				collapsable: true
-			}，
+			},
 			{
 				title: '页面对象模型',
 				path: '/test/auto-test/页面对象模型.md',
