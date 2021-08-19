@@ -4,7 +4,7 @@ module.exports = [
     items: [
       { text: '测试基础', link: '/test/basic-essentials/' },
       { text: '接口测试', link: '/test/interface-test/' },
-      { text: '性能测试', link: '/test/性能测试/' },
+      { text: '性能测试', link: '/test/performance-test/' },
       { text: '自动化测试', link: '/test/auto-test/' },
       { text: '安全测试', link: '/test/safety-test/' },
       { text: '面试相关', link: '/test/面试/' }

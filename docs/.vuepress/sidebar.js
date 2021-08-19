@@ -3,6 +3,7 @@ module.exports = {
   '/test/basic-essentials': require('../test/basic-essentials/sidebar'),
   '/test/auto-test/': require('../test/auto-test/sidebar'),
   '/test/interface-test/': require('../test/interface-test/sidebar'),
+  '/test/performance-test/': require('../test/performance-test/sidebar'),
   /* --------- 必知必会 --------- */
   '/basic-skills/git/': require('../basic-skills/git/sidebar'),
   '/basic-skills/nginx/': require('../basic-skills/nginx/sidebar'),
