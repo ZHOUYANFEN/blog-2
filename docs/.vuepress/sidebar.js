@@ -10,6 +10,7 @@ module.exports = {
   '/basic-skills/git/': require('../basic-skills/git/sidebar'),
   '/basic-skills/nginx/': require('../basic-skills/nginx/sidebar'),
   '/basic-skills/docker/': require('../basic-skills/docker/sidebar'),
+  '/basic-skills/linux/': require('../basic-skills/linux/sidebar'),
   /* --------- 编程语言 --------- */
   '/languages/python/': require('../languages/python/sidebar'),
   /* --------- 数据库 --------- */
