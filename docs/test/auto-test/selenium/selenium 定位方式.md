@@ -96,7 +96,7 @@ driver.get("https://www.baidu.com")
 driver.find_element_by_css_selector("#kw").send_keys("test")
 ```
 
-css 选择器的语法有很多，可以参考 [Css selector](../css-selector.md)
+css 选择器的语法有很多，可以参考 [CSS选择定位](../css-selector.md)
 
 
 
