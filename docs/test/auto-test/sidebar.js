@@ -5,11 +5,6 @@ module.exports = [
     collapsable: false,
     children: [
 			{
-				title: '自动化基础',
-				path: '/test/auto-test/web-basics.md',
-				collapsable: true
-			},
-			{
 				title: '数据驱动与页面对象模型',
 				path: '/test/auto-test/数据驱动与页面对象模型.md',
 				collapsable: true
