@@ -1,7 +1,7 @@
 module.exports = [
   {
-    title: 'git',
-	  path: '/basic-skill/git/',
+    title: 'Git',
+	path: '/basic-skill/git/',
     collapsable: false,
     children: [
     		{
