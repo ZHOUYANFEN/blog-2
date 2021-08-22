@@ -6,12 +6,12 @@ module.exports = [
     children: [
     		{
 				title: '常见问题',
-				path: '/basic-skill/git/problems.md',
+				path: '/basic-skills/git/problems.md',
 				collapsable: true
 			},
 			{
 				title: '生成秘钥',
-				path: '/basic-skill/git/生成秘钥.md',
+				path: '/basic-skills/git/生成秘钥.md',
 				collapsable: true
 			}
 			

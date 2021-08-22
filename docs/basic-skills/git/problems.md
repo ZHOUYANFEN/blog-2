@@ -2,7 +2,7 @@
 
 ## 场景一
 
-**问题1：**git pull 时报错
+**问题1**：git pull 时报错
 
 ```
 error: Your local changes to the following files would be overwritten by merge:
@@ -10,7 +10,7 @@ error: Your local changes to the following files would be overwritten by merge:
 Please commit your changes or stash them before you merge.
 ```
 
-**原因：**本地修改已经使用 add 添加到缓存区了
+**原因**：本地修改已经使用 add 添加到缓存区了
 
 **解决方法：**
 
