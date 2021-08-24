@@ -9,3 +9,7 @@
 + Debian（及其派生版本Ubuntu、Linux Mint）
 + Fedora（及其相关版本Red Hat Enterprise Linux、CentOS）
 + openSUSE
+
+## 目的
+
+介绍一些常用的 Linux 命令，帮助大家在日常的测试中，能够使用这些命令进行排错
