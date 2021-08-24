@@ -5,10 +5,11 @@ module.exports = [
     collapsable: false,
     children: [
     		{
-				title: '',
-				path: '',
+				title: '常用文件和目录操作命令',
+				path: '/basic-skills/linux/linux/常用文件和目录操作命令.md',
 				collapsable: true
-			}
+			},
+			
 			
     	]
 	},
