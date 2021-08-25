@@ -9,6 +9,11 @@ module.exports = [
 				path: '/basic-skills/linux/linux/常用文件和目录操作命令.md',
 				collapsable: true
 			},
+			{
+				title: '文件打包与压缩',
+				path: '/basic-skills/linux/linux/文件打包与压缩.md',
+				collapsable: true
+			},
 			
 			
     	]
