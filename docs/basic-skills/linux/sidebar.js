@@ -14,7 +14,11 @@ module.exports = [
 				path: '/basic-skills/linux/linux/文件打包与压缩.md',
 				collapsable: true
 			},
-			
+			{
+				title: '权限操作',
+				path: '/basic-skills/linux/linux/权限操作.md',
+				collapsable: true
+			},
 			
     	]
 	},
