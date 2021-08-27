@@ -40,27 +40,27 @@ module.exports = [
     children: [
 			{
 				title: 'Selenium原理',
-				path: '/test/auto-test/selenium/Selenium原理.md',
+				path: '/test/auto-test/selenium/selenium原理',
 				collapsable: true
 			},
 			{
 				title: '元素定位',
-				path: '/test/auto-test/selenium/selenium 定位方式.md',
+				path: '/test/auto-test/selenium/selenium 定位方式',
 				collapsable: true
 			},
 			{
 				title: 'xpath语法',
-				path: '/test/auto-test/selenium/xpath语法.md',
+				path: '/test/auto-test/selenium/xpath语法',
 				collapsable: true
 			},
 			{
 				title: 'Selenium中xpath定位',
-				path: '/test/auto-test/selenium/selenium中xpath定位方式.md',
+				path: '/test/auto-test/selenium/selenium中xpath定位方式',
 				collapsable: true
 			},
 			{
 				title: 'CSS选择定位',
-				path: '/test/auto-test/selenium/css_selector.md',
+				path: '/test/auto-test/selenium/css-selector',
 				collapsable: true
 			}
     ]
