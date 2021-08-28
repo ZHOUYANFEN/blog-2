@@ -6,27 +6,27 @@ module.exports = [
     children: [
     		{
 				title: '《掌控习惯》',
-				path: '/books/control-habits.md',
+				path: '/books/control-habits',
 				collapsable: true
 			},
 			{
 				title: '《数据思维》',
-				path: '/books/data-thinking.md',
+				path: '/books/data-thinking',
 				collapsable: true
 			},
 			{
 				title: '《终身成长》',
-				path: '/books/mind-set.md',
+				path: '/books/mind-set',
 				collapsable: true
 			},
 			{
 				title: '《刻意练习》',
-				path: '/books/deliberate-practice.md',
+				path: '/books/deliberate-practice',
 				collapsable: true
 			},
 			{
 				title: '《终结拖延症》',
-				path: '/books/end-procrastination.md',
+				path: '/books/end-procrastination',
 				collapsable: true
 			}
     ]
