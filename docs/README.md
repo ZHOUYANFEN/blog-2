@@ -5,7 +5,7 @@ actionText: 进入笔记 →
 actionLink: /guide/
 action:
 - text: 进入小册 →
-  link: /test/测试基础/
+  link: /test/basic-essentials/
 features:
 - title: 测试技术
   details: 专注于自动化测试、性能测试、测试管理。
@@ -16,3 +16,4 @@ features:
 footer: MIT Licensed | Copyright © 2019-present SnowJi
 copyrightText: false
 ---
+
