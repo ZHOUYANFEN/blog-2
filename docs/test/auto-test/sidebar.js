@@ -6,27 +6,27 @@ module.exports = [
     children: [
 			{
 				title: '数据驱动与页面对象模型',
-				path: '/test/auto-test/数据驱动与页面对象模型.md',
+				path: '/test/auto-test/数据驱动与页面对象模型',
 				collapsable: true
 			},
 			{
 				title: '页面对象模型',
-				path: '/test/auto-test/页面对象模型.md',
+				path: '/test/auto-test/页面对象模型',
 				collapsable: true
 			},
 			{
 				title: '数据驱动',
-				path: '/test/auto-test/数据驱动.md',
+				path: '/test/auto-test/数据驱动',
 				collapsable: true
 			},
 			{
 				title: '提高GUI测试稳定性',
-				path: '/test/auto-test/提高GUI测试稳定性.md',
+				path: '/test/auto-test/提高GUI测试稳定性',
 				collapsable: true
 			},
 			{
 				title: '大型项目GUI自动化测试策略',
-				path: '/test/auto-test/大型项目GUI自动化测试设计策略.md',
+				path: '/test/auto-test/大型项目GUI自动化测试设计策略',
 				collapsable: true
 			},
 			
