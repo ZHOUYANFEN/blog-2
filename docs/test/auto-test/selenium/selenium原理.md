@@ -22,7 +22,7 @@
 
 **Client Libraries**： 是测试用例代码向 Selenium RC Server 发送 Http 请求的接口，支持多种语言
 
-**Selenium RC的执行流程 **：
+**Selenium RC的执行流程**：
 
 ![RC流程](../images/RC流程.jpg)
 
