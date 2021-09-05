@@ -26,7 +26,7 @@ for file in $(ls /etc)
 
 ## 变量引用
 
-**语法：**在变量名前加 $ 符号
+**语法**：在变量名前加 $ 符号
 
 ```bash
 your_name="qinjx"
@@ -54,9 +54,9 @@ echo $your_name
 
 ### 只读变量：
 
-**修饰关键字：**readonly
+**修饰关键字**：readonly
 
-**特点：**值不能被改变
+**特点**：值不能被改变
 
 ```bash
 #!/bin/bash
