@@ -2,7 +2,7 @@
 
 ## 1. 索引是什么（What）
 
-+ 不帮助 Mysql 高效获取数据的数据结构
++ 帮助 Mysql 高效获取数据的数据结构
 + 存储在文件系统中
 + 索引的文件存储形式与存储引擎有关
 + 索引文件的结构
@@ -10,3 +10,48 @@
   + 二叉树
   + B 树
   + B+ 树
+
+
+
+索引的使用
+
+- 什么是索引
+
+  - 索引由数据库中一列或多列组合而成，其作用是提高对表中数据的查询速度
+  - 其优点是可以提高检索数据的速度
+  - 缺点是创建和维护索引需要耗费时间
+  - 可以提高查询速度，会减慢写入速度
+
+- 索引的分类
+
+  - 普通索引
+  - 唯一索引
+  - 全文索引
+  - 单列索引
+  - 多列索引
+  - 空间索引：必须是空间类型 geometry，且该空间类型必须不为空
+
+- 索引创建
+
+  - 创建表时创建
+
+    create table tbl_name(字段名称 字段类型[完整性约束条件]，
+
+    ....,
+
+    [unique|fulltext|spatial] index|key [索引名称] (字段名称 [( 长度)] [asc|desc])
+
+    )
+
+  - 在已存在的表上创建索引
+
+    - create [unique|fulltext|spatial] index 索引名称 on 表名 {字段名[(长度)] [asc|desc]}
+    - alter table tbl_name add [unique|fulltext|spatial] index 索引名称(字段名称[(长度)] [asc|desc])
+
+  - 全文索引查询 select * from tbl_name where match(要查询的列名) against（'查询匹配的字符'）
+
+- 删除索引
+
+  drop index 索引名称 on tbl_name
+
+  alter table tbl_name drop index 索引名称
