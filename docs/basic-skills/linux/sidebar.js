@@ -19,6 +19,16 @@ module.exports = [
 				path: '/basic-skills/linux/linux/权限操作',
 				collapsable: true
 			},
+			{
+				title: '查看系统信息',
+				path: '/basic-skills/linux/linux/查看系统信息',
+				collapsable: true
+			},
+			{
+				title: '查看端口占用情况',
+				path: '/basic-skills/linux/linux/查看端口占用情况',
+				collapsable: true
+			}
 			
     	]
 	},
