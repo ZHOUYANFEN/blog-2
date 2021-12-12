@@ -16,6 +16,7 @@ module.exports = [
       { text: 'Git', link: '/basic-skills/git/' },
       { text: 'Nginx', link: '/basic-skills/nginx/' },
       { text: 'Docker', link: '/basic-skills/docker/' },
+      { text: 'Network', link: '/basic-skills/network/' },
     ]
   },
   {
