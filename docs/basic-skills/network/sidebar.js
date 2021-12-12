@@ -6,7 +6,7 @@ module.exports = [
     children: [
     		{
 				title: '网络分层',
-				path: '/basic-skills/network/',
+				path: '/basic-skills/network/网络分层.md',
 				collapsable: true
 			}
 			
