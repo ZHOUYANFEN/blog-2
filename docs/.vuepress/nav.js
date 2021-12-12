@@ -6,8 +6,7 @@ module.exports = [
       { text: '接口测试', link: '/test/interface-test/' },
       { text: '性能测试', link: '/test/performance-test/' },
       { text: '自动化测试', link: '/test/auto-test/' },
-      { text: '安全测试', link: '/test/safety-test/' },
-      { text: '面试相关', link: '/test/interview/' }
+      { text: '安全测试', link: '/test/safety-test/' }
     ]
   },
   {
