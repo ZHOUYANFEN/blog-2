@@ -26,7 +26,7 @@
 
 接收方：PC2，IP 地址为 IP2，MAC 地址为 MAC2
 
-![](../network/images/ARP.png)
+![arp](../network/images/ARP.png)
 
 步骤：
 
