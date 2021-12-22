@@ -48,6 +48,15 @@ ipconfig /all
 3. 数据封装完成后，将数据发送给 PC2 
 4. PC2 收到数据后，开始解包，拿到 PC1 的 MAC 后存入自己本地的缓存
 
+**查看 arp 缓存表**：
+
+```
+arp -a
+```
+
+![arp](./images/ARP.jpg)
+
+
 
 
 
