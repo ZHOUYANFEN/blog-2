@@ -1,4 +1,4 @@
-# ARP 与 RARP
+# ARP 协议
 
 ## ARP
 
@@ -57,25 +57,4 @@ arp -a
 ![arp](./images/ARP.jpg)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## RARP
 
