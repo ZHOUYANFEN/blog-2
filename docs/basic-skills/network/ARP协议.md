@@ -84,9 +84,17 @@ arp -a
 
   ![响应](./images/arp响应包.jpg)
 
+## ARP 类型
 
+### 普通 ARP
 
+### 翻转 ARP
 
+### 免费 ARP
+
+### 代理 ARP
+
+### 逆向 ARP
 
 
 
