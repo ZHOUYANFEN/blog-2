@@ -56,6 +56,24 @@ arp -a
 
 ### ARP 报文
 
+**报文格式**：
+
+![报文格式](./images/arp报文格式.jpg)
+
+根据上面描述的过程，在PC1 ping PC2 时使用 wireshark 抓包如下：
+
++ ARP请求包
+
+  PC1 本地 ARP 缓存表中未有 PC2 MAC 地址时，会进行广播
+
+  ![请求](./images/arp请求包.jpg)
+
++ ARP 响应包
+
+  PC2 收到广播消息后，以单播的形式回复给 PC1
+
+  ![响应](./images/arp响应包.jpg)
+
 
 
 
