@@ -15,6 +15,11 @@ module.exports = [
 				collapsable: true
 			},
 			{
+				title: '网络划分',
+				path: '/basic-skills/network/网络划分.md',
+				collapsable: true
+			},
+			{
 				title: 'ARP协议',
 				path: '/basic-skills/network/ARP协议.md',
 				collapsable: true
