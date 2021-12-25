@@ -26,7 +26,7 @@ ipconfig /all
 
 在 OSI 模型中，一方发送数据时，需要从上到下对数据进行封装，另一方收到数据时需要对数据从上到下进行解包，但是网络层识别的是 IP 地址，数据链路层识别的是 MAC 地址，因此需要对 IP 和 MAC 进行映射。
 
-具体介绍可以参考[IP地址](/basic-skill/network/IP地址)
+具体介绍可以参考[IP地址](/basic-skills/network/IP地址)
 
 ## ARP 原理之请求应答
 
