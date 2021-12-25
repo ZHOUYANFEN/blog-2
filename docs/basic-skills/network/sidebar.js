@@ -10,6 +10,11 @@ module.exports = [
 				collapsable: true
 			},
 			{
+				title: 'IP地址',
+				path: '/basic-skills/network/IP地址.md',
+				collapsable: true
+			},
+			{
 				title: 'ARP协议',
 				path: '/basic-skills/network/ARP协议.md',
 				collapsable: true
