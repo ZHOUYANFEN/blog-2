@@ -34,7 +34,7 @@ module.exports = [
     children: [
     		{
 				title: 'ARP 协议安全',
-				path: '/basic-skills/network/ARP 协议攻击.md',
+				path: '/basic-skills/network/ARP 协议安全.md',
 				collapsable: true
 			},
 			
