@@ -23,6 +23,11 @@ module.exports = [
 				title: 'ARP协议',
 				path: '/basic-skills/network/ARP协议.md',
 				collapsable: true
+			},
+			{
+				title: 'IP协议',
+				path: '/basic-skills/network/IP协议.md',
+				collapsable: true
 			}
 			
     ]
