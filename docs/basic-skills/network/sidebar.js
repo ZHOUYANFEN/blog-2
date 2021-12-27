@@ -28,6 +28,16 @@ module.exports = [
 				title: 'IP协议',
 				path: '/basic-skills/network/IP协议.md',
 				collapsable: true
+			},
+			{
+				title: 'DHCP协议',
+				path: '/basic-skills/network/DHCP协议.md',
+				collapsable: true
+			},
+			{
+				title: 'DNS协议',
+				path: '/basic-skills/network/DNS协议.md',
+				collapsable: true
 			}
 			
     ]
