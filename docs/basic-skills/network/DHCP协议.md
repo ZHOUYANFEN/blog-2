@@ -69,5 +69,15 @@ ACK 数据包：
 
 ![dhcp5](./images/DHCP5.png)
 
+## DHCP 中继
+
+作用： 跨网段执行 DHCP 请求时，通过 DHCP中 继代理，将请求信息以单播方式转发给 DHCP 服务器 
+
+原理：
+
+![dhcp6](./images/DHCP6.png)
+
+
+
 
 
