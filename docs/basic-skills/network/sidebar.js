@@ -52,6 +52,11 @@ module.exports = [
 				path: '/basic-skills/network/协议安全/ARP协议安全.md',
 				collapsable: true
 			},
+			{
+				title: 'DHCP Snooping',
+				path: '/basic-skills/network/协议安全/DHCP-Snooping.md',
+				collapsable: true
+			}
 			
 			
     ]
