@@ -29,7 +29,7 @@ DNS：Domain Name System，域名系统
 
 + com：一级域名，表示一个企业域名
 + baidu：二级域名，指公司名
-+ www：表示万维网
++ www：指主机名
 
 ### 域名分级
 
