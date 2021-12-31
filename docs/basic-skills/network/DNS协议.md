@@ -6,5 +6,9 @@ DNS：Domain Name System，域名系统
 
 目的：将域名转换为主机 IP 地址
 
+端口号：53
+
+使用协议：UDP
+
 ## 域名结构
 
