@@ -15,7 +15,7 @@ module.exports = [
 				collapsable: true
 			},
 			{
-				title: '网络划分',
+				title: '子网掩码',
 				path: '/basic-skills/network/子网掩码.md',
 				collapsable: true
 			},
