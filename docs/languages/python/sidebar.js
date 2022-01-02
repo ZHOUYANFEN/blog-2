@@ -6,7 +6,7 @@ module.exports = [
     children: [
     	{
         title: 'pip安装',
-        path: '/languages/python/python/pip安装与应用.md',
+        path: '/languages/python/python/pip安装和应用.md',
         collapsable: true
       	},
       	{
@@ -21,7 +21,7 @@ module.exports = [
       	},
       	{
         title: '数据类型',
-        path: '/languages/python/python/base.md',
+        path: '/languages/python/python/数据类型.md',
         collapsable: true
       	},
       	{
@@ -71,31 +71,24 @@ module.exports = [
       	},
       	{
         title: '装饰器',
-        path: '/languages/python/python/decorator.md',
+        path: '/languages/python/python/装饰器.md',
         collapsable: true
       	},
       	{
         title: '垃圾回收机制',
-        path: '/languages/python/python/garbage-collection.md',
+        path: '/languages/python/python/内存回收机制.md',
         collapsable: true
       	},
       	{
         title: '进程与线程',
         path: '/languages/python/python/multi-progress.md',
         collapsable: true
+      	},
+      	{
+        title: 'PEP8',
+        path: '/languages/python/python/PEP8.md',
+        collapsable: true
       	}
     ]
   },
-  {
-	title: 'Python',
-    path: '/languages/python/crawler',
-    collapsable: false,
-    children:[
-		{
-        title: '进程与线程',
-        path: '/languages/python/python/multi-progress.md',
-        collapsable: true
-      	},
-    ]
-  }
 ]
