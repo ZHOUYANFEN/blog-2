@@ -88,7 +88,12 @@ module.exports = [
         title: 'PEP8',
         path: '/languages/python/python/PEP8.md',
         collapsable: true
-      	}
+      	},
+      	{
+        title: 'Pycharm快捷键',
+        path: '/languages/python/python/Pycharm快捷键.md',
+        collapsable: true
+      	},
     ]
   },
 ]
