@@ -36,5 +36,14 @@ select * from activity where id = 19;
 select * from activity where type = "addBuy" limit 2;
 ```
 
++ 分组
+
+```
+select type,count(*) from activity group by type;
+结果：
+addBuy	15
+RESTRITED	10
+```
+
 
 
