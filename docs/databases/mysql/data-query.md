@@ -22,3 +22,19 @@ select select_expr[,select_expr查询表达式]
 ]
 ```
 
+栗子：
+
++ 普通查询
+
+```
+select * from activity where id = 19;
+```
+
++ 限制返回数量
+
+```
+select * from activity where type = "addBuy" limit 2;
+```
+
+
+
