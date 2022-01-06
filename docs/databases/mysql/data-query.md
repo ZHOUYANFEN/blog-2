@@ -48,15 +48,14 @@ RESTRITED	10
 + 排序
 
 ```
-
+select user_id,SUM(value) from nplus_integral_change_record group by user_id order by SUM(value) desc; 
 ```
-
-
 
 + 筛选
 
 ```
-
+select user_id,SUM(value) from integral_change_record group by user_id having SUM(value) < 200; 
+结果：所有积分数小于 200 的筛选出来
 ```
 
 
