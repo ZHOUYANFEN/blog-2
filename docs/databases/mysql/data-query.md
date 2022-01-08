@@ -195,5 +195,47 @@ ORDER BY access_log.count DESC;
   <>、!=                                         任意值
   ```
 
+  ```
   select username from user where score>=any|some(select ........)
+  ```
+
+- 将查询结果写入数据表中
+
+  ```
+  insert [into] tbl_name [(col_name,.....)] select.......
+  ```
+
+- 创建数据表同时将查询结果写入到数据表
+
+  ```
+  create table [if not exists] tbl_name [(create_definition,....)] select .....
+  ```
+
+## 正则表达式查询
+
+概念：查询时匹配正则表达式
+
+ regexp 的常用匹配方式：
+
+```
+模式字符                       含义
+^                            匹配字符的开始部分
+$                            匹配字符的结尾部分
+.                            代表字符串中的任意一个字符，包括回车和换行
+[字符集合]                     匹配字符集合中的任意一个字符
+[^字符集合]                   匹配除了字符集合以外的任意一个字符
+s1|s2|s3                    匹配s1、s2、s3中任意一个字符
+*                           代表0个、1个或多个其前的字符
++                           代表1个或多个其前的字符
+string{N}                   字符串出现n次
+字符串{M,N}                  字符串至少出现M次，最多N次
+```
+
+栗子：
+
+```
+select * from user where username regexp '^t';
+
+结果：查询 username 以 t 开头的所有信息
+```
 
