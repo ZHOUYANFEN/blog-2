@@ -11,7 +11,7 @@ module.exports = [
             },
             {
                 title: '索引',
-                path: '/databases/mysql/index',
+                path: '/databases/mysql/索引',
                 collapsable: true
             },
         ]
