@@ -161,7 +161,5 @@ ORDER BY access_log.count DESC;
 +  RIGHT JOIN 关键字从右表返回所有的行，即使左表中没有匹配  
 + 没有匹配的返回 NULL 
 
-## 联合查询
-
 
 
