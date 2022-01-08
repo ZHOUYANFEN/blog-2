@@ -161,5 +161,39 @@ ORDER BY access_log.count DESC;
 +  RIGHT JOIN 关键字从右表返回所有的行，即使左表中没有匹配  
 + 没有匹配的返回 NULL 
 
+## 子查询
 
+概念：将一个查询语句嵌套在另一个查询语句中，内层查询语句的查询结果可以为外层查询语句提供条件
+
+常用子查询：
+
+- 由 [not] in 引发的子查询
+
+  ```
+  select username from user where in(select ........)
+  ```
+
+- 通过比较运算符引发的子查询
+
+  ```
+  select username from user where score>=(select ........)
+  ```
+
+- 使用 [not] exists 引发的子查询
+
+  ```
+  select username from user where exists(select ........)
+  ```
+
+- 使用 any|some 或 all 引发的子查询
+
+  ```
+  关键字           any            some            all
+  >、>=           最小值          最小值           最大值
+  <、<=           最大值          最大值           最小值
+  =               任意值          任意值             
+  <>、!=                                         任意值
+  ```
+
+  select username from user where score>=any|some(select ........)
 
