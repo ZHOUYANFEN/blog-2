@@ -10,6 +10,11 @@ module.exports = [
                 collapsable: true
             },
             {
+                title: '联合查询',
+                path: '/databases/mysql/联合查询',
+                collapsable: true
+            },
+            {
                 title: '索引',
                 path: '/databases/mysql/索引',
                 collapsable: true
