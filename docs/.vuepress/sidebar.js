@@ -15,7 +15,7 @@ module.exports = {
   /* --------- 编程语言 --------- */
   '/languages/python/': require('../languages/python/sidebar'),
   /* --------- 数据库 --------- */
-
+  '/databases/mysql/': require('../databases/mysql/sidebar'),
   /* --------- 产品与运营 --------- */
   '/product-and-operation/product/': require('../product-and-operation/product/sidebar'),
   '/product-and-operation/operation/': require('../product-and-operation/operation/sidebar'),
