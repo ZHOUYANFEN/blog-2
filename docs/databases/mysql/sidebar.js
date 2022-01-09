@@ -25,5 +25,17 @@ module.exports = [
                 collapsable: true
             },
         ]
+    },
+    {
+        title: '函数',
+        path: '/databases/mysql/',
+        collapsable: false,
+        children: [
+        	{
+                title: '运算符使用',
+                path: '/databases/mysql/运算符使用',
+                collapsable: true
+            }，
+        ]
     }
 ]
