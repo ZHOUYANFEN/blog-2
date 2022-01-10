@@ -5,6 +5,11 @@ module.exports = [
         collapsable: false,
         children: [
         	{
+                title: '数据类型',
+                path: '/databases/mysql/数据类型',
+                collapsable: true
+            },
+        	{
                 title: '运算符使用',
                 path: '/databases/mysql/运算符使用',
                 collapsable: true
