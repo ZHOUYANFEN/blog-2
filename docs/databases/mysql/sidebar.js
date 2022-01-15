@@ -40,7 +40,7 @@ module.exports = [
                 title: '运算符使用',
                 path: '/databases/mysql/运算符使用',
                 collapsable: true
-            }，
+            },
         ]
     }
 ]
