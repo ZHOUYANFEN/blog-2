@@ -59,8 +59,28 @@ Rest：
 
 #### 理解返回一致的数据格式：
 
-#### 理解返回一致的数据格式：
+服务端返回的数据可以是 XML 或 json 或直接返回状态码
 
+**返回 json 数据**：
+
+```
+返回错误的数据格式：
+{
+    "code": 401,
+    "status": "error",
+    "message": '用户没有权限',
+    "data": null
+}
+正确的数据格式可以如下：
+{
+    "code": 200,
+    "status": "success",
+    "data": [{
+        "userName": "tugenhua",
+        "age": 31
+    }]
+}
+```
 
 
 ## url 及参数设计规范
