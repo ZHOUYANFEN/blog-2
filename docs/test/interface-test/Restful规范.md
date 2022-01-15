@@ -86,6 +86,33 @@ Rest：
 ## url 及参数设计规范
 
 ### url 设计规范
++ url 末尾不需要出现斜杠/ 
++ 在 url 中使用 / 是表达层级关系的
++ 在 url 中可以使用连接符 - 来提升可读性
++ 在 url 中不允许出现下划线 _
++ 在 url 中尽量使用小写字符
++ 在 url 中不允许出现文件扩展名、
++ 在 url 中使用复数形式
+
+**接口设计对比**：
+
+```
+未使用规范前，接口形式不固定：
+http://xxx.com/api/getallUsers; // GET请求方式，获取所有的用户信息
+http://xxx.com/api/getuser/1;   // GET请求方式，获取标识为1的用户信息
+http://xxx.com/api/user/delete/1 // GET、POST 删除标识为1的用户信息
+http://xxx.com/api/updateUser/1  // POST请求方式 更新标识为1的用户信息
+http://xxx.com/api/User/add      // POST请求方式，添加新的用户
+
+使用规范后：
+http://xxx.com/api/users;     // GET请求方式 获取所有用户信息
+http://xxx.com/api/users/1;   // GET请求方式 获取标识为1的用户信息
+http://xxx.com/api/users/1;   // DELETE请求方式 删除标识为1的用户信息
+http://xxx.com/api/users/1;   // PATCH请求方式，更新标识为1的用户部分信息
+http://xxx.com/api/users;     // POST请求方式 添加新的用户
+```
+
+
 
 ### HTTP 请求规范
 
