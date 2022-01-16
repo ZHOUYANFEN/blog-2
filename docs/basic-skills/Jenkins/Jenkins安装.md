@@ -10,3 +10,12 @@
 
 ## 安装 Jenkins
 
+**安装步骤**：
+
++ 下载地址：https://www.jenkins.io/download/
+
++ 选择 .war 文件下载
++ 下载完成后，进入下载目录，运行 ` java -jar jenkins.war --httpPort=8080  `
++ 打开浏览器进入链接 ` http://localhost:8080 `
++ 能成功打开链接时，即说明安装成功
+
