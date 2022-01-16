@@ -5,8 +5,8 @@ module.exports = [
     collapsable: false,
     children: [
     		{
-				title: 'docker核心技术',
-				path: '/basic-skills/Jenkins/核心技术',
+				title: 'Jenkins安装',
+				path: '/basic-skills/Jenkins/Jenkins安装',
 				collapsable: true
 			},
 			
