@@ -12,6 +12,7 @@ module.exports = {
   '/basic-skills/docker/': require('../basic-skills/docker/sidebar'),
   '/basic-skills/linux/': require('../basic-skills/linux/sidebar'),
   '/basic-skills/network/': require('../basic-skills/network/sidebar'),
+  '/basic-skills/Jenkins/': require('../basic-skills/Jenkins/sidebar'),
   /* --------- 编程语言 --------- */
   '/languages/python/': require('../languages/python/sidebar'),
   /* --------- 数据库 --------- */
