@@ -1,25 +1,23 @@
-# Docker
+# Jenkins 
 
-## Docker 概念
+## 简介
 
-**定义**：Docker 是一种虚拟化技术的产品，属于一种容器
++ 一款开源的持续集成的工具
++ 底层语言为 Java
++ 通常与版本管理工具( SVN、Git等)、构建工具(Maven、Ant、Gradle等)结合使用
 
-**容器**：将软件打包成标准化单元，以用于开发、交付和部署
+## CI/CD 介绍
 
-## Docker 架构
+### CI
 
-![拉取运行原理](images/拉取运行原理.jpg)
+Continuous integration ，持续集成，是一种开发时间
 
-## Docker 思想
+持续集成强调开发人员提交了代码之后，立即进行构建、测试
 
-+ 集装箱
-+ 标准化
-  + 运输方式
-  + 存储方式
-  + API 接口
-+ 隔离
+![CI](../Jenkins/images/ci.png)
 
-## Docker 解决的问题
+### CD
 
-+ 不同环境运行导致软件运行出错
+ Continuous Delivery，持续交付，在持续集成基础上，将集成后的代码部署到更贴近真实运行环境中
 
+![CD](../Jenkins/images/CD.png)
