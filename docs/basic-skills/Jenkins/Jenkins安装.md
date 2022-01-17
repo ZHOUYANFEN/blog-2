@@ -19,3 +19,12 @@
 + 打开浏览器进入链接 ` http://localhost:8080 `
 + 能成功打开链接时，即说明安装成功
 
+## Jenkins 版本升级
+
+**升级步骤**：
+
++ 根据上面的步骤下载想要升级的 war 包
++ 使用 `http://jenkinsIP:port/exit` 停止 Jenkins 服务
++ 找到 war 包路径，替换最新的 war 包
++ 使用 ` java -jar jenkins.war ` 启动 Jenkins服务
+
