@@ -30,6 +30,11 @@ module.exports = [
 				collapsable: true
 			},
 			{
+				title: 'HTTP协议',
+				path: '/basic-skills/network/HTTP协议.md',
+				collapsable: true
+			},
+			{
 				title: 'DHCP协议',
 				path: '/basic-skills/network/DHCP协议.md',
 				collapsable: true
