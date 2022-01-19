@@ -29,41 +29,55 @@ HTTP：Hyper Text Transfer Protocol，超文本传输协议，应用层协议
 
 如：`post /api/ HTTP/1.1`
 
-**请求方式**
+#### 请求方式
 
 在 REST 架构分隔中，有严格规定对于不同的请求类型要设置合适的请求方法，可参考[Restful规范](/test/interface-test/Restful规范/)
 
-+ get
-
++ GET
   + 将请求参数追加在 URL 后面，不安全
-  + URL 长度限制 get 请求方式数据的大小
+  + URL 长度限制 GET 请求方式数据的大小
   + 没有请求体
-
-+ post
-
-  + 请求参数在请求体中，相对于 get 来说较安全
++ POST
+  + 请求参数在请求体中，相对于 GET 来说较安全
   + 请求数据大小没有限制
-
-+ head
-
++ HEAD
   + 服务端值返回响应头，没有响应内容
-
-+ delete
-
++ DELETE
   + 删除一个资源
-
-+ options
-
++ OPTIONS
   + 用于获取当前 URL 所支持的方法
   + 请求成功后，会在HTTP头中包含一个名为 “Allow” 的头，值是所支持的方法 
-
-+ trace
-
++ TRACE
   + 回显服务器收到的请求，主要用于测试或诊断
-
-+ connect
-
++ CONNECT
   +  HTTP/1.1 协议预留的，能够将连接改为管道方式的代理服务器 
   +  通常用于 SSL 加密服务器的链接与非加密的 HTTP 代理服务器的通信 
 
-  
+#### 请求头
+
+如：`Host:39.108.107.149:8080`
+
+请求头从第二行开始，到第一个空格结束
+
+常以键值对 {key:value} 方式
+
+```
+
+```
+
+**常见请求头**：
+
++ Referer
++ Accept
++  Cokkie
++  User-Agent
++  Connection
++  Host
++  Content-Length
++  Content-Type
++  Accept-Encoding
++  Accept-Language
++  Cache-Control
+
+更多请求头属性可参考[HTTP请求头信息对照表](http://tools.jb51.net/table/http_header)
+
