@@ -81,5 +81,13 @@ Referer: http://test.com.cn/
 
 更多请求头属性可参考[HTTP请求头信息对照表](http://tools.jb51.net/table/http_header)
 
-### 请求体
+###  请求体
+
+当请求方式是 POST 时，请求体会有请求的参数，格式如下：
+
+```
+username=zhangsan&password=123
+```
+
+## HTTP 响应报文
 
