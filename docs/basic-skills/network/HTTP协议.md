@@ -21,7 +21,7 @@ HTTP：Hyper Text Transfer Protocol，超文本传输协议，应用层协议
 
 组成：请求行 + 请求头 + 请求体
 
-
+![header](./images/http1.png)
 
 ### 请求行
 
@@ -62,12 +62,12 @@ HTTP：Hyper Text Transfer Protocol，超文本传输协议，应用层协议
 常以键值对 {key:value} 方式
 
 ```
-
+Referer: http://test.com.cn/
 ```
 
 **常见请求头**：
 
-+ Referer
++ Referer：
 + Accept
 +  Cokkie
 +  User-Agent
@@ -80,4 +80,6 @@ HTTP：Hyper Text Transfer Protocol，超文本传输协议，应用层协议
 +  Cache-Control
 
 更多请求头属性可参考[HTTP请求头信息对照表](http://tools.jb51.net/table/http_header)
+
+### 请求体
 
