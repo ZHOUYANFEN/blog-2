@@ -189,12 +189,13 @@ HTTP 1.1 版本：
 
 **通常使用以下解决方案解决 HTTP 无状态**：
 
-#### Cookies(客户端支持)
++ Cookies(客户端支持)
++ Session(服务端支持)
++ token
 
-+ 客户端登录后，服务端在响应头中返回 Set-Cookie 的字段信息，通知客户端保存 Cookie 
-+ 客户端再次请求时，在请求报文头中携带 Cookies 信息
+具体原理请参考[三种状态机制](/test/interface-test/三种状态机制.md)
 
-#### Session(服务端支持)
+
 
 
 
