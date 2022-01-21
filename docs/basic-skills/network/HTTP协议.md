@@ -127,3 +127,25 @@ HTTP/1.1 200 OK
   + 503: Service Unavailable 服务器端当前无法处理请求
   + 504：网关超时
 
+### 响应头
+
+ 响应头也是用键值对 k：v 
+
+**常见响应头**：
+
+| 常见响应头       | 解释                                                         | 示例                                                  |
+| ---------------- | ------------------------------------------------------------ | ----------------------------------------------------- |
+| Location         | 用来重定向接收方到非请求 URL 的位置来完成请求或标识新的资源  | Location: http://www.zcmhi.com/archives/94.html       |
+| Content-Type     | 返回内容的 MIME 类型                                         | Content-Type: text/html; charset=utf-8                |
+| Set-Cookie       | 设置 Http Cookie                                             | Set-Cookie: UserID=JohnDoe; Max-Age=3600; Version=1   |
+| Content-Encoding | web 服务器支持的返回内容压缩编码类型                         | Content-Encoding: gzip                                |
+| Content-length   | 响应体的长度                                                 | Content-Length: 348                                   |
+| Refresh          | 应用于重定向或一个新的资源被创造，在 5 秒之后重定向（由网景提出，被大部分浏览器支持） | Refresh: 5; url=http://www.zcmhi.com/archives/94.html |
+| Server           | web 服务器软件名称                                           | Server: Apache/1.3.27 (Unix) (Red-Hat/Linux)          |
+| Cache-Control    | 告诉所有的缓存机制是否可以缓存及哪种类型                     | Cache-Control: no-cache                               |
+
+更多响应头属性可参考[HTTP响应头信息对照表](http://tools.jb51.net/table/http_header)
+
+### 响应体
+
+ 是服务器回写给客户端的页面正文，浏览器将正文加载到内存，然后解析渲染显示页面内容 
