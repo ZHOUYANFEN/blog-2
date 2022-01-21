@@ -92,3 +92,18 @@ username=zhangsan&password=123
 ## HTTP 响应报文
 
 组成：响应行 + 响应头 + 响应体
+
+![response](./images/http2.png)
+
+### 响应行
+
+格式：HTTP 版本 返回状态码  状态码描述
+
+如：
+
+```
+HTTP/1.1 200 OK
+```
+
+
+
