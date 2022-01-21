@@ -53,7 +53,7 @@ HTTP：Hyper Text Transfer Protocol，超文本传输协议，应用层协议
   +  HTTP/1.1 协议预留的，能够将连接改为管道方式的代理服务器 
   +  通常用于 SSL 加密服务器的链接与非加密的 HTTP 代理服务器的通信 
 
-#### 请求头
+### 请求头
 
 如：`Host:39.108.107.149:8080`
 
@@ -61,23 +61,19 @@ HTTP：Hyper Text Transfer Protocol，超文本传输协议，应用层协议
 
 常以键值对 {key:value} 方式
 
-```
-Referer: http://test.com.cn/
-```
-
 **常见请求头**：
 
-| 请求头          | 解释 |
-| :-------------- | ---- |
-| Referer         |      |
-| Accept          |      |
-| Cokkie          |      |
-| User-Agent      |      |
-| Connection      |      |
-| Host            |      |
-| Content-Type    |      |
-| Accept-Encoding |      |
-| Cache-Control   |      |
+| 请求头          | 解释                                                         | 示例                                            |
+| :-------------- | ------------------------------------------------------------ | ----------------------------------------------- |
+| Referer         | 表示从哪个 URL 跳转来的                                      | Referer: http://www.zcmhi.com/archives/71.html  |
+| Accept          | 指定客户端能够接收的内容类型                                 | Accept: text/plain, text/html                   |
+| Cokkie          | HTTP 请求发送时，会把保存在该请求域名下的所有cookie 值一起发送给web服务器 | Cookie: $Version=1; Skin=new;                   |
+| User-Agent      | User-Agent的内容包含发出请求的用户信息                       | User-Agent: Mozilla/5.0 (Linux; X11)            |
+| Connection      | 表示是否需要持久连接，HTTP 1.1 默认进行持久连接              | Connection: close                               |
+| Host            | 指定请求的服务器的域名和端口号                               | Host: www.zcmhi.com                             |
+| Content-Type    | 请求的与实体对应的 MIME 信息                                 | Content-Type: application/x-www-form-urlencoded |
+| Accept-Encoding | 指定浏览器可以支持的 web 服务器返回内容压缩编码类型          | Accept-Encoding: compress, gzip                 |
+| Cache-Control   | 指定请求和响应遵循的缓存机制                                 | Cache-Control: no-cache                         |
 
 更多请求头属性可参考[HTTP请求头信息对照表](http://tools.jb51.net/table/http_header)
 
