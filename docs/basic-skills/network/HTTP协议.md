@@ -67,17 +67,17 @@ Referer: http://test.com.cn/
 
 **常见请求头**：
 
-+ Referer：
-+ Accept
-+  Cokkie
-+  User-Agent
-+  Connection
-+  Host
-+  Content-Length
-+  Content-Type
-+  Accept-Encoding
-+  Accept-Language
-+  Cache-Control
+| 请求头          | 解释 |
+| :-------------- | ---- |
+| Referer         |      |
+| Accept          |      |
+| Cokkie          |      |
+| User-Agent      |      |
+| Connection      |      |
+| Host            |      |
+| Content-Type    |      |
+| Accept-Encoding |      |
+| Cache-Control   |      |
 
 更多请求头属性可参考[HTTP请求头信息对照表](http://tools.jb51.net/table/http_header)
 
@@ -91,3 +91,4 @@ username=zhangsan&password=123
 
 ## HTTP 响应报文
 
+组成：响应行 + 响应头 + 响应体
