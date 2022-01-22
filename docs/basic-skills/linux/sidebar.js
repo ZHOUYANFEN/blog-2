@@ -28,7 +28,12 @@ module.exports = [
 				title: '查看端口占用情况',
 				path: '/basic-skills/linux/linux/查看端口占用情况',
 				collapsable: true
-			}
+			},
+			{
+				title: 'Crobtab定时',
+				path: '/basic-skills/linux/linux/定时任务',
+				collapsable: true
+			},
 			
     	]
 	},
