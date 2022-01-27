@@ -93,3 +93,14 @@ TCP 报文格式：
 
 + 只要 server 发出确认，新的连接就建立了，不管是否这个请求是已经失效的请求
 + client 不需要向 server 发送确认请求，server 在连接建立后一直等待 client 发送数据，会导致很多资源被占用
+
+### 数据传输
+
+### 四次挥手
+
+![fin](./images/tcp-fin.png)
+
+**第一次挥手**：
+
++ TCP 发送一个 FIN(结束)，用来关闭 client 到 server 的连接
++ 
