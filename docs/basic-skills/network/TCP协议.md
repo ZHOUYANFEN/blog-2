@@ -103,4 +103,9 @@ TCP 报文格式：
 **第一次挥手**：
 
 + TCP 发送一个 FIN(结束)，用来关闭 client 到 server 的连接
++ client 发出连接释放报文，FIN=1，其序列号为 seq=u ，并停止发送数据
++ client 进入 FIN-WAIT-1(终止等待 1)状态
+
+**第二次挥手**：
+
 + 
