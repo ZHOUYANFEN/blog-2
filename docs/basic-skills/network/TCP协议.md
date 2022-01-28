@@ -120,4 +120,10 @@ TCP 报文格式：
 
 **第四次挥手**：
 
-+ 
++ client 收到释放报文后，发出确认报文，ACK=1，ack=w+1
++ client 进入 TIME-WAIT(时间等待)状态
++ TCP 连接没有立即释放，等报文段寿命(2**MSL)的时间过后，client 撤销相应的 TCP 连接，进入 CLOSED 状态
++ server 在接收到确认后，立即撤销 TCP 连接，进入 CLOSED 状态
+
+**思考**：为什么是 4次 挥手？
+
