@@ -72,8 +72,13 @@ module.exports = [
     collapsable: false,
     children: [
     		{
-				title: 'ARP 协议安全',
+				title: 'ARP协议安全',
 				path: '/basic-skills/network/协议安全/ARP协议安全.md',
+				collapsable: true
+			},
+			{
+				title: 'SYN攻击',
+				path: '/basic-skills/network/协议安全/SYN攻击.md',
 				collapsable: true
 			},
 			{
