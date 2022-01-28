@@ -108,4 +108,11 @@ TCP 报文格式：
 
 **第二次挥手**：
 
++ server 收到这个 FIN ，发出确认报文 ACK=1，ack=u+1，并且带上自己的序列号 seq=v
++ server 端进入 CLOSE-WAIT(关闭等待)状态
++ client 收到确认后， client 端进入 FIN-WAIT-2(终止等待2)状态，等待服务器发送连接释放报文
++ 在释放连接请求发送前，client 需要接受 server 发送的最后的数据
+
+**第三次挥手**：
+
 + 
