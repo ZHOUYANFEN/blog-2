@@ -35,6 +35,11 @@ module.exports = [
 				collapsable: true
 			},
 			{
+				title: 'UDP协议',
+				path: '/basic-skills/network/UDP协议.md',
+				collapsable: true
+			},
+			{
 				title: 'HTTP协议',
 				path: '/basic-skills/network/HTTP协议.md',
 				collapsable: true
