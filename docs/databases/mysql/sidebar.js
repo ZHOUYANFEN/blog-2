@@ -37,8 +37,8 @@ module.exports = [
         collapsable: false,
         children: [
         	{
-                title: '运算符使用',
-                path: '/databases/mysql/运算符使用',
+                title: 'IFNULL',
+                path: '/databases/mysql/IFNULL函数',
                 collapsable: true
             },
         ]
