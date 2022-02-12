@@ -17,18 +17,18 @@ module.exports = [
     ]
   },
   {
-    title: '抓包工具',
-	path: '/test/interface-test/packet-capture-tool/',
+    title: '测试工具',
+	path: '/test/interface-test/tools/',
     collapsable: false,
     children: [
 			{
 				title: 'fiddler',
-				path: '/test/interface-test/packet-capture-tool/fiddler',
+				path: '/test/interface-test/tools/packet-capture-tool/fiddler',
 				collapsable: false,
 				children: [
 					{
 						title: '断点',
-						path: '/test/interface-test/packet-capture-tool/fiddler/breakpoints.md',
+						path: '/test/interface-test/tools/packet-capture-tool/fiddler/breakpoints.md',
 						collapsable: true,
 					}
 				]
