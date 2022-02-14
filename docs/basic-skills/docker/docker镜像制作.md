@@ -50,4 +50,5 @@ COPY jpress.war /usr/local/tomcat/webapps 将jpress.war文件拷贝至tomcat的w
 
   重新加载网页：
 
-  ![jpress1](images/jpress1.jpg)
+  ![jpress1](./images/jpress1.jpg)
+
