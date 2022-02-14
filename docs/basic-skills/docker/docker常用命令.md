@@ -38,6 +38,8 @@
 
   docker run -d XXX
 
+  **注意**：使用 docker run 指定运行的镜像时，会先从本地找，如果本地没有再去镜像仓库下载公共镜像
+
 + 查看运行的容器
 
   docker ps
