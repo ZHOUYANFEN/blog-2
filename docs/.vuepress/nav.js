@@ -6,7 +6,8 @@ module.exports = [
       { text: '接口测试', link: '/test/interface-test/' },
       { text: '性能测试', link: '/test/performance-test/' },
       { text: '自动化测试', link: '/test/auto-test/' },
-      { text: '安全测试', link: '/test/safety-test/' }
+      { text: '安全测试', link: '/test/safety-test/' },
+      { text: '测试工具', link: '/test/tools/' }
     ]
   },
   {
@@ -21,7 +22,7 @@ module.exports = [
     ]
   },
   {
-    text: '编程语言',
+    text: '语言学习',
     items: [
       { text: 'Python', link: '/languages/python/python/' },
     ]
@@ -32,17 +33,17 @@ module.exports = [
       { text: 'MySQL', link: '/databases/mysql/' },
     ]
   },
-  {
-    text: '产品与运营',
-    items: [
-      { text: '产品', link: '/product-and-operation/product/' },
-      { text: '运营', link: '/product-and-operation/operation/' }
-    ]
-  },
+  //{
+  //  text: '产品与运营',
+  //  items: [
+  //    { text: '产品', link: '/product-and-operation/product/' },
+  //    { text: '运营', link: '/product-and-operation/operation/' }
+  //  ]
+  //},
   {
     text: '读书笔记', link: '/books/'
   },
-  {
-    text: '更新日志', link: '/history/'
-  }
+  //{
+  //  text: '更新日志', link: '/history/'
+  //}
 ]

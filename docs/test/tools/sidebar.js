@@ -15,5 +15,22 @@ module.exports = [
 				collapsable: true
 			}
     ]
-  }
+  },
+  {
+    title: 'Fiddler',
+	path: '/test/tools/Fiddler',
+    collapsable: false,
+    children: [
+			{
+				title: 'XSS',
+				path: '/test/tools/Fiddler/XSS.md',
+				collapsable: true
+			},
+			{
+				title: 'csrf',
+				path: '/test/tools/Fiddler/csrf.md',
+				collapsable: true
+			}
+    ]
+  },
 ]
