@@ -5,6 +5,7 @@ module.exports = {
   '/test/interface-test/': require('../test/interface-test/sidebar'),
   '/test/performance-test/': require('../test/performance-test/sidebar'),
   '/test/safety-test/': require('../test/safety-test/sidebar'),
+  '/test/tools/': require('../test/tools/sidebar'),
   '/test/interview/': require('../test/interview/sidebar'),
   /* --------- 必知必会 --------- */
   '/basic-skills/git/': require('../basic-skills/git/sidebar'),
