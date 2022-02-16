@@ -5,15 +5,30 @@ module.exports = [
     collapsable: false,
     children: [
 			{
-				title: 'XSS',
-				path: '/test/safety-test/web-security/XSS.md',
+				title: 'JMeter安装',
+				path: '/test/tools/Jmeter安装.md',
 				collapsable: true
 			},
 			{
-				title: 'csrf',
-				path: '/test/safety-test/web-security/csrf.md',
+				title: 'JMeter目录介绍',
+				path: '/test/tools/Jmeter目录介绍.md',
 				collapsable: true
-			}
+			},
+			{
+				title: 'JMeter配置文件',
+				path: '/test/tools/Jmeter配置文件.md',
+				collapsable: true
+			},
+			{
+				title: 'JMeter测试计划',
+				path: '/test/tools/测试计划详解.md',
+				collapsable: true
+			},
+			{
+				title: 'JMeter测试计划参数介绍',
+				path: '/test/tools/测试计划参数详解.md',
+				collapsable: true
+			},
     ]
   },
   {
