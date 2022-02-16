@@ -1,51 +1,49 @@
 module.exports = [
   {
     title: 'JMeter',
-	path: '/test/tools/Jmeter',
+	path: '/test/tools/Jmeter/',
     collapsable: false,
     children: [
 			{
-				title: 'JMeter安装',
-				path: '/test/tools/Jmeter/Jmeter安装',
+				title: 'JMeter瀹夎',
+				path: '/test/tools/Jmeter/Jmeter瀹夎',
 				collapsable: true
 			},
 			{
-				title: 'JMeter目录介绍',
-				path: '/test/tools/Jmeter/Jmeter目录介绍',
+				title: 'JMeter鐩綍浠嬬粛',
+				path: '/test/tools/Jmeter/Jmeter鐩綍浠嬬粛',
 				collapsable: true
 			},
 			{
-				title: 'JMeter配置文件',
-				path: '/test/tools/Jmeter/Jmeter配置文件',
+				title: 'JMeter閰嶇疆鏂囦欢',
+				path: '/test/tools/Jmeter/Jmeter閰嶇疆鏂囦欢',
 				collapsable: true
 			},
 			{
-				title: 'JMeter测试计划',
-				path: '/test/tools/Jmeter/测试计划详解',
+				title: 'JMeter娴嬭瘯璁″垝',
+				path: '/test/tools/Jmeter/娴嬭瘯璁″垝璇﹁В',
 				collapsable: true
 			},
 			{
-				title: 'JMeter测试计划参数介绍',
-				path: '/test/tools/Jmeter/测试计划参数详解',
+				title: 'JMeter娴嬭瘯璁″垝鍙傛暟',
+				path: '/test/tools/Jmeter/娴嬭瘯璁″垝鍙傛暟璇﹁В',
 				collapsable: true
 			},
+			
+			
     ]
   },
   {
     title: 'Fiddler',
-	path: '/test/tools/Fiddler',
+	path: '/test/tools/Fiddler/',
     collapsable: false,
     children: [
 			{
-				title: 'XSS',
-				path: '/test/tools/Fiddler/XSS.md',
+				title: 'Selenium鍘熺悊',
+				path: '/test/auto-test/selenium/selenium鍘熺悊',
 				collapsable: true
 			},
-			{
-				title: 'csrf',
-				path: '/test/tools/Fiddler/csrf.md',
-				collapsable: true
-			}
+			
     ]
-  },
+  }
 ]
