@@ -6,27 +6,27 @@ module.exports = [
     children: [
 			{
 				title: 'JMeter安装',
-				path: '/test/tools/Jmeter/Jmeter安装.md',
+				path: '/test/tools/Jmeter/Jmeter安装',
 				collapsable: true
 			},
 			{
 				title: 'JMeter目录介绍',
-				path: '/test/tools/Jmeter/Jmeter目录介绍.md',
+				path: '/test/tools/Jmeter/Jmeter目录介绍',
 				collapsable: true
 			},
 			{
 				title: 'JMeter配置文件',
-				path: '/test/tools/Jmeter/Jmeter配置文件.md',
+				path: '/test/tools/Jmeter/Jmeter配置文件',
 				collapsable: true
 			},
 			{
 				title: 'JMeter测试计划',
-				path: '/test/tools/Jmeter/测试计划详解.md',
+				path: '/test/tools/Jmeter/测试计划详解',
 				collapsable: true
 			},
 			{
 				title: 'JMeter测试计划参数介绍',
-				path: '/test/tools/Jmeter/测试计划参数详解.md',
+				path: '/test/tools/Jmeter/测试计划参数详解',
 				collapsable: true
 			},
     ]
