@@ -29,6 +29,16 @@ module.exports = [
 				path: '/test/tools/Jmeter/测试计划参数详解',
 				collapsable: true
 			},
+			{
+				title: '线程组',
+				path: '/test/tools/Jmeter/线程组',
+				collapsable: true
+			},
+			{
+				title: 'HTTP请求',
+				path: '/test/tools/Jmeter/HTTP请求',
+				collapsable: true
+			},
 			
 			
     ]
