@@ -20,12 +20,12 @@ module.exports = [
 				collapsable: true,
 			},
 			{
-				title: 'Session',
+				title: 'Session介绍',
 				path: '/test/interface-test/session',
 				collapsable: true,
 			},
 			{
-				title: 'Token',
+				title: 'Token介绍',
 				path: '/test/interface-test/token',
 				collapsable: true,
 			},
