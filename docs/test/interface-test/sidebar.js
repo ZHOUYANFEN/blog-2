@@ -15,13 +15,18 @@ module.exports = [
 			collapsable: true,
 		},
 			{
-				title: '详解Cookie',
-				path: '/test/interface-test/详解cookie',
+				title: 'Cookie介绍',
+				path: '/test/interface-test/cookie',
 				collapsable: true,
 			},
 			{
-				title: '详解Session',
-				path: '/test/interface-test/详解session',
+				title: 'Session',
+				path: '/test/interface-test/session',
+				collapsable: true,
+			},
+			{
+				title: 'Token',
+				path: '/test/interface-test/token',
 				collapsable: true,
 			},
     ]
