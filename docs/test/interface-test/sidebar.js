@@ -19,6 +19,11 @@ module.exports = [
 				path: '/test/interface-test/详解cookie',
 				collapsable: true,
 			},
+			{
+				title: '详解Session',
+				path: '/test/interface-test/详解session',
+				collapsable: true,
+			},
     ]
   }
 ]
