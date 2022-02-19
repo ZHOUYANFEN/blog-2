@@ -29,6 +29,11 @@ module.exports = [
 				path: '/test/interface-test/token',
 				collapsable: true,
 			},
+			{
+				title: '跨域介绍',
+				path: '/test/interface-test/跨域',
+				collapsable: true,
+			},
     ]
   }
 ]
