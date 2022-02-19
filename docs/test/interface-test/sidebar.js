@@ -10,10 +10,15 @@ module.exports = [
 			collapsable: true,
 		},
 		{
-			title: '三种状态机制',
-			path: '/test/interface-test/三种状态机制',
+			title: '三种状态机制介绍',
+			path: '/test/interface-test/三种状态机制介绍',
 			collapsable: true,
 		},
+			{
+				title: '详解Cookie',
+				path: '/test/interface-test/详解cookie',
+				collapsable: true,
+			},
     ]
   }
 ]
