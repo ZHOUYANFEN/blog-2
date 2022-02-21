@@ -39,6 +39,11 @@ module.exports = [
 				path: '/test/tools/Jmeter/HTTP请求',
 				collapsable: true
 			},
+			{
+				title: '参数化之CSV',
+				path: '/test/tools/Jmeter/CSV',
+				collapsable: true
+			},
 			
 			
     ]
