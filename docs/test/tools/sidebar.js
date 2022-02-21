@@ -10,6 +10,11 @@ module.exports = [
 				collapsable: true
 			},
 			{
+				title: 'JMeter在Linux下安装',
+				path: '/test/tools/Jmeter/Linux下安装 JMeter',
+				collapsable: true
+			},
+			{
 				title: 'JMeter目录介绍',
 				path: '/test/tools/Jmeter/Jmeter目录介绍',
 				collapsable: true
