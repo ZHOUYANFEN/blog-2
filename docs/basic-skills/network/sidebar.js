@@ -57,40 +57,40 @@ module.exports = [
 			
     ]
 },
-  {
-    title: '路由协议',
-	path: '/basic-skills/network/路由协议',
-    collapsable: false,
-    children: [
-    		{
-				title: 'ARP 协议安全',
-				path: '/basic-skills/network/协议安全/ARP协议安全.md',
-				collapsable: true
-			}
+//  {
+//    title: '路由协议',
+//	path: '/basic-skills/network/路由协议',
+//    collapsable: false,
+//    children: [
+//    		{
+//				title: 'ARP 协议安全',
+//				path: '/basic-skills/network/协议安全/ARP协议安全.md',
+//				collapsable: true
+//			}
 			
 			
-    ]
-},
+//    ]
+//},
 {
     title: '协议安全',
 	path: '/basic-skills/network/协议安全',
     collapsable: false,
     children: [
-    		{
-				title: 'ARP协议安全',
-				path: '/basic-skills/network/协议安全/ARP协议安全.md',
-				collapsable: true
-			},
+   // 		{
+			//	title: 'ARP协议安全',
+			//	path: '/basic-skills/network/协议安全/ARP协议安全.md',
+			//	collapsable: true
+			//},
 			{
 				title: 'SYN攻击',
 				path: '/basic-skills/network/协议安全/SYN攻击.md',
 				collapsable: true
 			},
-			{
-				title: 'DHCP Snooping',
-				path: '/basic-skills/network/协议安全/DHCP-Snooping.md',
-				collapsable: true
-			}
+			//{
+			//	title: 'DHCP Snooping',
+			//	path: '/basic-skills/network/协议安全/DHCP-Snooping.md',
+			//	collapsable: true
+			//}
 			
 			
     ]
