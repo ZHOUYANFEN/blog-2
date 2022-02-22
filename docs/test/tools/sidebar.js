@@ -49,6 +49,11 @@ module.exports = [
 				path: '/test/tools/Jmeter/CSV',
 				collapsable: true
 			},
+			{
+				title: '控制器之循环控制器',
+				path: '/test/tools/Jmeter/loop-controller',
+				collapsable: true
+			},
 			
 			
     ]
