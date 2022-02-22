@@ -45,6 +45,11 @@ module.exports = [
 				collapsable: true
 			},
 			{
+				title: 'HTTP请求默认值',
+				path: '/test/tools/Jmeter/HTTP请求默认值',
+				collapsable: true
+			},
+			{
 				title: '参数化之CSV',
 				path: '/test/tools/Jmeter/CSV',
 				collapsable: true
@@ -58,17 +63,17 @@ module.exports = [
 			
     ]
   },
-  {
-    title: 'Fiddler',
-	path: '/test/tools/Fiddler/',
-    collapsable: false,
-    children: [
-			{
-				title: 'Selenium原理',
-				path: '/test/auto-test/selenium/selenium原理',
-				collapsable: true
-			},
+ // {
+ //   title: 'Fiddler',
+	//path: '/test/tools/Fiddler/',
+ //   collapsable: false,
+ //   children: [
+	//		{
+	//			title: 'Selenium原理',
+	//			path: '/test/auto-test/selenium/selenium原理',
+	//			collapsable: true
+	//		},
 			
-    ]
-  }
+ //   ]
+ // }
 ]
