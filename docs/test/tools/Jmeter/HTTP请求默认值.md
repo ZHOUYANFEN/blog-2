@@ -38,3 +38,12 @@ HTTP 请求默认值，可以添加在测试计划、线程组、HTTP 请求下
 
 其他 HTTP 请求暂无其他配置
 
+运行查看结果：
+
+
+
+![response](./images/response1.png)
+
+![response](./images/response2.png)
+
+![response](./images/response3.png)
