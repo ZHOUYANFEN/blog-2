@@ -47,3 +47,4 @@ HTTP 请求默认值，可以添加在测试计划、线程组、HTTP 请求下
 ![response](./images/response2.png)
 
 ![response](./images/response3.png)
+
