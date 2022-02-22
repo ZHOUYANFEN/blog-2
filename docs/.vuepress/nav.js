@@ -40,9 +40,9 @@ module.exports = [
   //    { text: '运营', link: '/product-and-operation/operation/' }
   //  ]
   //},
-  {
-    text: '读书笔记', link: '/books/'
-  },
+  //{
+  //  text: '读书笔记', link: '/books/'
+  //},
   //{
   //  text: '更新日志', link: '/history/'
   //}
