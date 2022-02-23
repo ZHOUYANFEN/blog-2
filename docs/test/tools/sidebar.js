@@ -15,6 +15,11 @@ module.exports = [
 				collapsable: true
 			},
 			{
+				title: 'JMeter插件安装',
+				path: '/test/tools/Jmeter/JMeter插件安装',
+				collapsable: true
+			},
+			{
 				title: 'JMeter目录介绍',
 				path: '/test/tools/Jmeter/Jmeter目录介绍',
 				collapsable: true
