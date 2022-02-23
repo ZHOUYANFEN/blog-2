@@ -59,7 +59,7 @@ JMeter 证书目录
 
 ### Printable_docs目录
 
-Printable_docs的 usermanual 子目录下的内容是 JMeter 的用户手册文档
+Printable_docs 的 usermanual 子目录下的内容是 JMeter 的用户手册文档
 
 usermanual 下 component_reference.html 是最常用到的核心元件帮助文档
 
