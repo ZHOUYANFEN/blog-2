@@ -19,7 +19,7 @@ JMeter 版本：5.4.3
 | NOTICE         | JMeter 简单信息说明                                          |
 | README.md      | JMeter 官方基本介绍                                          |
 
-### bin目录(重点看)
+### bin目录(重点)
 
 ![img1](./images/bin.png)
 
