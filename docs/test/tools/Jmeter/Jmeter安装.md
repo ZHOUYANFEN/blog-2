@@ -40,7 +40,7 @@ https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
 
 https://jmeter.apache.org/download_jmeter.cgi 下载 .zip 的文件
 
-下载完成后解压
+下载完成后解压，
 
 #### 打开界面
 
@@ -60,4 +60,9 @@ https://jmeter.apache.org/download_jmeter.cgi 下载 .zip 的文件
 
   上述操作 cmd 窗口会一直显示，如果想要关闭，可以输入 jmeterw，此时就不会显示 cmd 窗口了
 
-  
+### JMeter 运行原理
+
++ JMeter 是运行在 jvm 虚拟机上的
++ JMeter 是以线程的方式运行的，减少负载机
++ JMeter 通过线程组驱动多个线程执行
++ GUI 模式一般用来调试，压力测试一般在非 GUI 模式下进行
