@@ -65,6 +65,11 @@ module.exports = [
 				collapsable: true
 			},
 			{
+				title: '参数化之JDBC',
+				path: '/test/tools/Jmeter/JDBC',
+				collapsable: true
+			},
+			{
 				title: '控制器之循环控制器',
 				path: '/test/tools/Jmeter/loop-controller',
 				collapsable: true
