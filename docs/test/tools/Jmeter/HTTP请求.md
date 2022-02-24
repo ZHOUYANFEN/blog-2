@@ -57,10 +57,8 @@
 
 ![http5](./images/http5.png)
 
-+ POST 请求方式一般是以消息体数据传参
-+ 传入 Json 格式的数据
++ 传入 Json 格式的数据，JMeter 不能识别为 Json，必须添加请求头 content-type: application/json 
 + 参数列表中有参数时，是不能切换到消息体数据的，必须先删除
-+ 数据体为 Json 时，JMeter 不能识别为 Json，必须添加请求头 content-type: application/json 
 
 栗子：用户登录
 
