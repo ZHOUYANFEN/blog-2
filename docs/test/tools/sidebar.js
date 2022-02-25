@@ -50,6 +50,11 @@ module.exports = [
 				collapsable: true
 			},
 			{
+				title: 'badboy录制脚本',
+				path: '/test/tools/Jmeter/线程组',
+				collapsable: true
+			},
+			{
 				title: 'HTTP请求',
 				path: '/test/tools/Jmeter/HTTP请求',
 				collapsable: true
