@@ -99,4 +99,5 @@ Notify Child Listeners of filtered samplers:
 
   ![proxy](./images/proxy4.png)
 
-  
+
+代理录制 Web 端时，同样需要设置浏览器代理
