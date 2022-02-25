@@ -55,6 +55,11 @@ module.exports = [
 				collapsable: true
 			},
 			{
+				title: 'JMeter代理录制脚本',
+				path: '/test/tools/Jmeter/JMeter录制脚本',
+				collapsable: true
+			},
+			{
 				title: 'HTTP请求',
 				path: '/test/tools/Jmeter/HTTP请求',
 				collapsable: true
