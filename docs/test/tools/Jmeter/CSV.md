@@ -2,6 +2,8 @@
 
 作用：使用 CSV Data Set config 进行参数化设置
 
+**适用于大量测试数据时的使用**
+
 ## 界面
 
 右击 add--Sample--Config Element--CSV Data Set config 进行添加
