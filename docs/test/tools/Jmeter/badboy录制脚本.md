@@ -1,5 +1,7 @@
 # badboy 录制脚本
 
+**重点**: 此方式只能录制 Web 端
+
 ## badboy 下载安装
 
 可在网盘下载：[百度网盘下载链接](https://pan.baidu.com/s/1sHfcOAe3jm9zeig8iGjJig#list/path=%2F) 密码：6666
