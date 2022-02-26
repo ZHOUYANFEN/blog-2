@@ -85,8 +85,8 @@ module.exports = [
 				collapsable: true
 			},
 			{
-				title: '参数化之JDBC',
-				path: '/test/tools/Jmeter/JDBC',
+				title: 'JDBC连接配置',
+				path: '/test/tools/Jmeter/JDBC连接配置',
 				collapsable: true
 			},
 			{
