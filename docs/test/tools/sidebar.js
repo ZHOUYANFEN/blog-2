@@ -80,6 +80,11 @@ module.exports = [
 				collapsable: true
 			},
 			{
+				title: '参数化之用户自定义参数',
+				path: '/test/tools/Jmeter/用户自定义的变量',
+				collapsable: true
+			},
+			{
 				title: '参数化之JDBC',
 				path: '/test/tools/Jmeter/JDBC',
 				collapsable: true
